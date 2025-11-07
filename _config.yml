@@ -17,11 +17,11 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "156Sheong`s Agit"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+title                    : "156Sheong의 아지트"
+title_separator          : "|"
+subtitle                 : "Small beginnings, big changes."
 name                     : "156Sheong"
-description              : "An amazing website."
+description              : "156Sheong의 아지트입니다."
 url                      : "https://156Sheong.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "156Sheong/156Sheong.github.io"

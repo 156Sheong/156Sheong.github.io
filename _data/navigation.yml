@@ -12,4 +12,6 @@ main:
   #   url: /sitemap/
 
   - title: "category"
-    ure: /categories/
+    url: /categories/
+  - title: "Tag"
+    url: /tags/

@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "소스 코드 편집기"
+title:  "소스 코드 편집기와 통합 개발 환경 학습"
 categories: Programming
 tag: [Programming, TIL]
 toc: true
@@ -11,7 +11,7 @@ typora-root-url: ../
 
 
 
-# 소스 코드 편집기와 통합 개발 환경 학습
+# 소스 코드 편집기(Source Code Editor)와 통합 개발 환경 학습(Integrated Development Environment, IDE)
 
 
 
@@ -43,7 +43,7 @@ typora-root-url: ../
 
 
 
-## C. 통합 개발 환경(Integrated Development Environment, IDE)
+## C. 통합 개발 환경
 - 통합 개발 환경의 정의 : 소프트웨어 개발에 필요한 모든 작업을 하나의 애플리케이션 안에서 처리할 수 있도록 다양한 도구를 통합해 제공하는 소프트웨어
 
 - 통합 개발 환경의 주요 도구 및 기능

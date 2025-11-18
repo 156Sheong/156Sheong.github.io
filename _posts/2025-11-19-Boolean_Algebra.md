@@ -2,7 +2,7 @@
 layout: single
 title:  "논리 연산과 논리 게이트"
 categories: Programming
-tag: [Programming, TIL, Computer math, Discrete Math]
+tag: [Programming, TIL, Computer_math, Discrete_Math]
 toc: true
 sidebar:
     nav: "counts"

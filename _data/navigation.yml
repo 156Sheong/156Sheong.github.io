@@ -17,3 +17,10 @@ main:
     url: /tags/
   - title: "Posts by Year"
     url: /year-archive/
+
+
+counts:
+  - title: "카테고리"
+    use : true
+  - title: "태그"
+    use : false  

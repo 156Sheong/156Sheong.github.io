@@ -4,6 +4,8 @@ title:  "소스 코드 편집기"
 categories: Programming
 tag: [Programming, TIL]
 toc: true
+sidebar:
+    nav: "counts"
 typora-root-url: ../
 ---
 

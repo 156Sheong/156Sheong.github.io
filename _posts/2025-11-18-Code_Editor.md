@@ -1,13 +1,13 @@
 ---
 layout: single
-title:  "CS(Computer Science) 기초"
+title:  "소스 코드 편집기"
 categories: Programming
 tag: [Programming, TIL]
 ---
 
 
 
-# CS 기초 공부
+# 소스 코드 편집기
 
 
 
@@ -21,8 +21,4 @@ tag: [Programming, TIL]
 
 
 
-
-
-- 컴퓨터에서 가장 중요한 부품
-- CPU, RAM, 메인보드, 그래픽카드
-- 
+## B. 소스 코드 편집기

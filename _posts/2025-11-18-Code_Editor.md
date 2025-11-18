@@ -12,6 +12,7 @@ typora-root-url: ../
 
 
 # 소스 코드 편집기(Source Code Editor)와 통합 개발 환경 학습(Integrated Development Environment, IDE)
+- 학습 목표 : 소스 코드 편집기와 통합 개발 환경의 정의와 특징을 이해하고, 개인에 맞는 도구를 발견하는 것
 
 
 

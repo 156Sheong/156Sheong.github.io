@@ -1,0 +1,50 @@
+---
+layout: single
+title:  "논리 연산과 논리 게이트"
+categories: Programming
+tag: [Programming, TIL, Computer_math, Discrete_Math]
+toc: true
+sidebar:
+    nav: "counts"
+typora-root-url: ../
+---
+
+
+
+# 논리 연산(Logical Operation)과 논리 게이트(Logic Gate)
+- 학습 목표 : 컴퓨터의 이진수의 이해에 필요한 논리 연산, 불 대수와 논리 게이트를 이해하는 것
+- 
+
+
+## A. 문서 이력
+- 최초 작성일 : 2025-11-19
+- 최종 수정일 : 2025-11-19
+
+- 작성 툴 : Typora, Visual Studio Code
+
+- 정보 출처 : 명지대학교 - [이산수학 유튜브](https://youtu.be/2XLwJDi_Q4Y?si=iTACz1gX2aCNLdeY) 등
+
+
+
+## B. 컴퓨터의 이진수와 논리 연산의 관계
+- 컴퓨터의 전기 신호는 꺼짐 / 켜짐으로 나뉘고, 이는 0 / 1의 이진수 체계로 대응됨
+- 논리 연산은 `불 대수(Boolean Algebra)`라는 수학적 논리 체계에 기반해 주어진 명제의 참/ 거짓을 결정하는 연산
+- 불 대수의 참/ 거짓은 컴퓨터의 이진수에 `일대일로 명확하게 대응(매핑)`됨
+- 컴퓨터는 `논리 게이트`라 불리는 전자 회로를 통해 이러한 논리 연산을 물리적으로 구현함
+
+
+
+## C. 논리 연산과 불 대수
+- 논리 연산은 `불 연산(boolean operation)` 이라고도 함
+- 논리 연산은 단 2개의 원소(0 / 1)를 가짐
+
+
+### Ca. 논리 연산의 기본 연산
+
+
+
+### Cb. 논리 연산의 성질
+
+
+
+### Cc. 논리 연산의 연산 법칙

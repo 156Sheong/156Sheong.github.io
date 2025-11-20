@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "변수 및 자료형"
+title:  "변수 및 자료형 학습"
 categories: Programming
 tag: [Programming, TIL, CSharp]
 toc: true
@@ -11,7 +11,7 @@ typora-root-url: ../
 
 
 
-# 변수(Variable)와 자료형(Data Type)
+# 변수(Variable)와 자료형(Data Type) 학습
 - 학습 목표 : C#에서 활용 가능한 주요 변수와 자료형을 이해하는 것
 
 

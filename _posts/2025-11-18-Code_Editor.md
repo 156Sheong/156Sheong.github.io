@@ -40,12 +40,54 @@ typora-root-url: ../
   - 톱합 개발 환경 보다 가벼움
 
 - 소스 코드 편집기의 종류 및 장단점 
-| 코드 편집기 종류          | 특징                                       | 장점                                                                                       | 단점                                                                 | 추천 대상                                 |
-|--------------------|------------------------------------------|------------------------------------------------------------------------------------------|--------------------------------------------------------------------|---------------------------------------|
-| Visual Studio Code | 마이크로소프트에서 개발한 오픈 소스 코드 편집기               | 다양한 OS 지원,<br/>디버깅, Git 통합 등 강력한 기능 내장,<br/>방대한 플러그인 생태계를 통한 광범위한 확장성,<br/>활발한 커뮤니티 및 지원 | 상대적으로 무거움,<br/>JetBrains IDE보다는 리팩토링 기능이 다소 부족                     | 웹 개발자,<br/>프론트엔드 개발자,<br/>백엔드 개발자     |
-| Sublime Text       | 속도와 효율성에 중점을 둔 경량 텍스트 편집기                | 매우 빠름,<br/>대용량 파일 처리에도 안정적인 성능,<br/>직관적인 인터페이스                                           | 무료 버전도 있으나 지속적인 사용을 위해서는 라이선스 구매 필요,<br/>디버깅 등 일부 기능은 플러그인 설치가 필수적 | 빠른 속도를 선호하는 개발자,<br/>가벼운 소규모 프로젝트 개발자 |
-| Atom               | GitHub에서 개발한 웹 기술(Electron) 기반 오픈 소스 편집기 | 웹 기술 기반의 다양한 사용자 정의 및 테마 설정 가능,<br/>Git 및 GitHub와 연동이 강력함                                | 다른 편집기에 비해 다소 무겁고 느림,<br/>공식적인 신규 기능 개발은 중단                        | GitHub 사용자                            |
-| Notepad++          | 윈도우 전용 무료 소스 코드 편집기                      | 시스템 리소스를 거의 사용하지 않는 극도의 가벼움                                                              | 윈도우 전용,<br/>다양한 플러그인이 있지는 않은 제한적 확장성,<br/>투박한 인터페이스                | 윈도우 환경의 경량 작업을 처리하려는 개발자              |
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-mzqp{background-color:#D0D0D0;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-2g1l{background-color:#FFF;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-f4yw{background-color:#FFF;text-align:center;vertical-align:middle}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-mzqp">코드 편집기&nbsp;&nbsp;&nbsp;종류</th>
+    <th class="tg-mzqp">특징</th>
+    <th class="tg-mzqp">장점</th>
+    <th class="tg-mzqp">단점</th>
+    <th class="tg-mzqp">추천 대상</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-2g1l">Visual Studio Code</td>
+    <td class="tg-f4yw">마이크로소프트에서&nbsp;&nbsp;&nbsp;개발한 오픈 소스 코드 편집기</td>
+    <td class="tg-f4yw">다양한&nbsp;&nbsp;&nbsp;OS 지원,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;디버깅, Git 통합 등 강력한 기능 내장,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;방대한 플러그인 생태계를 통한 광범위한 확장성,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;활발한 커뮤니티 및 지원</td>
+    <td class="tg-f4yw">상대적으로&nbsp;&nbsp;&nbsp;무거움,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JetBrains IDE보다는 리팩토링 기능이 다소 부족</td>
+    <td class="tg-f4yw">웹&nbsp;&nbsp;&nbsp;개발자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;프론트엔드 개발자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;백엔드 개발자</td>
+  </tr>
+  <tr>
+    <td class="tg-2g1l">Sublime Text</td>
+    <td class="tg-f4yw">속도와&nbsp;&nbsp;&nbsp;효율성에 중점을 둔 경량 텍스트 편집기</td>
+    <td class="tg-f4yw">매우&nbsp;&nbsp;&nbsp;빠름,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;대용량 파일 처리에도 안정적인 성능,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;직관적인 인터페이스</td>
+    <td class="tg-f4yw">무료&nbsp;&nbsp;&nbsp;버전도 있으나 지속적인 사용을 위해서는 라이선스 구매 필요,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;디버깅 등 일부 기능은 플러그인 설치가 필수적</td>
+    <td class="tg-f4yw">빠른&nbsp;&nbsp;&nbsp;속도를 선호하는 개발자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;가벼운 소규모 프로젝트 개발자</td>
+  </tr>
+  <tr>
+    <td class="tg-2g1l">Atom</td>
+    <td class="tg-f4yw">GitHub에서&nbsp;&nbsp;&nbsp;개발한 웹 기술(Electron) 기반 오픈 소스 편집기</td>
+    <td class="tg-f4yw">웹&nbsp;&nbsp;&nbsp;기술 기반의 다양한 사용자 정의 및 테마 설정 가능,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Git 및 GitHub와 연동이 강력함</td>
+    <td class="tg-f4yw">다른&nbsp;&nbsp;&nbsp;편집기에 비해 다소 무겁고 느림,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;공식적인 신규 기능 개발은 중단</td>
+    <td class="tg-f4yw">GitHub&nbsp;&nbsp;&nbsp;사용자</td>
+  </tr>
+  <tr>
+    <td class="tg-2g1l">Notepad++</td>
+    <td class="tg-f4yw">윈도우&nbsp;&nbsp;&nbsp;전용 무료 소스 코드 편집기</td>
+    <td class="tg-f4yw">시스템&nbsp;&nbsp;&nbsp;리소스를 거의 사용하지 않는 극도의 가벼움</td>
+    <td class="tg-f4yw">윈도우&nbsp;&nbsp;&nbsp;전용,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;다양한 플러그인이 있지는 않은 제한적 확장성,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;투박한 인터페이스</td>
+    <td class="tg-f4yw">윈도우&nbsp;&nbsp;&nbsp;환경의 경량 작업을 처리하려는 개발자</td>
+  </tr>
+</tbody></table>
 
 
 
@@ -63,13 +105,55 @@ typora-root-url: ../
   - 특정 언어나 프레임워크에 최적화 됨 -> 대규모 프로젝트에서 개발자의 생산성 향상 가능
   - 다양한 기능이 포함되어 소스 코드 편집기 보다 상대적으로 무겁고, 시스템 자원 더 많이 소모할 수 있음
   
-- 통합 개발 환경 종류 및 장단점 : Visual Studio, JetBrains Rider, Android Studio, Eclipse 등
-| IDE 종류          | 특징                               | 장점                                                                                                                                  | 단점                                               | 추천 대상                                |
-|-----------------|----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|--------------------------------------|
-| Visual Studio   | 마이크로소프트의 강력한 IDE                 | 디버깅, 테스팅, UI 디자인 도구, 데이터베이스 관리 등 개발에 필요한 모든 기능 제공,<br/>강력한 윈도우 생태계에 통합되어 Azur, .NET 프레임워크와의 연동 뛰어남,<br/>다양한 코딩 도구 제공,<br/>다양한 언어 지원 | 높은 리소스 사용,<br/>윈도우 중심이라 맥OS용 버전은 일부 기능이 제한될 수 있음 | .NET/C# 개발자,<br/>대규모 엔터프라이즈 프로젝트 개발자 |
-| JetBrains Rider | JetBrains의 크로스 플랫폼 .NET IDE      | 대용량 파일 처리 속도가 빠름,<br/>강력한 코드 분석 및 리펙토링,<br/>크로스 플랫폼 지원,<br/>유니티 및 언리얼 엔진 지원                                                         | 유료 소프트웨어,<br/>상대적으로 높은 메모리 사용량                   | .NET/Unity 개발자,<br/>크로스 플랫폼 환경의 개발자  |
-| Android Studio  | Google에서 제공하는 안드로이드 앱 개발 공식 IDE. | 안드로이드 개발에 최적화,<br/>Gradle 빌드 시스템 지원하여 복잡한 프로젝트 효율적으로 관리                                                                             | 안드로이드 플랫폼 종속                                     | 안드로이드 개발자                            |
-| Eclipse         | 자바 기반의 오픈 소스 IDE                 | 광범위한 플러그인 확장성,<br/>오랜 역사와 커뮤니티를 통한 풍부한 자료                                                                                           | 느린 성능,<br/>플러그인 간의 충돌 가능성 있음,<br/>투박한 인터페이스      | JAVA 개발자                             |
+- 통합 개발 환경 종류 및 장단점
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-mzqp{background-color:#D0D0D0;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-2g1l{background-color:#FFF;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-f4yw{background-color:#FFF;text-align:center;vertical-align:middle}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-mzqp">IDE 종류</th>
+    <th class="tg-mzqp">특징</th>
+    <th class="tg-mzqp">장점</th>
+    <th class="tg-mzqp">단점</th>
+    <th class="tg-mzqp">추천 대상</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-2g1l">Visual Studio</td>
+    <td class="tg-f4yw">마이크로소프트의&nbsp;&nbsp;&nbsp;강력한 IDE</td>
+    <td class="tg-f4yw">디버깅,&nbsp;&nbsp;&nbsp;테스팅, UI 디자인 도구, 데이터베이스 관리 등 개발에 필요한 모든 기능 제공,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;강력한 윈도우 생태계에 통합되어 Azur, .NET 프레임워크와의 연동 뛰어남,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;다양한 코딩 도구 제공,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;다양한 언어 지원</td>
+    <td class="tg-f4yw">높은&nbsp;&nbsp;&nbsp;리소스 사용,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;윈도우 중심이라 맥OS용 버전은 일부 기능이 제한될 수 있음</td>
+    <td class="tg-f4yw">.NET/C#&nbsp;&nbsp;&nbsp;개발자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;대규모 엔터프라이즈 프로젝트 개발자</td>
+  </tr>
+  <tr>
+    <td class="tg-2g1l">JetBrains Rider</td>
+    <td class="tg-f4yw">JetBrains의&nbsp;&nbsp;&nbsp;크로스 플랫폼 .NET IDE</td>
+    <td class="tg-f4yw">대용량&nbsp;&nbsp;&nbsp;파일 처리 속도가 빠름,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;강력한 코드 분석 및 리펙토링,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;크로스 플랫폼 지원,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;유니티 및 언리얼 엔진 지원</td>
+    <td class="tg-f4yw">유료&nbsp;&nbsp;&nbsp;소프트웨어,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;상대적으로 높은 메모리 사용량</td>
+    <td class="tg-f4yw">.NET/Unity&nbsp;&nbsp;&nbsp;개발자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;크로스 플랫폼 환경의 개발자</td>
+  </tr>
+  <tr>
+    <td class="tg-2g1l">Android Studio</td>
+    <td class="tg-f4yw">Google에서&nbsp;&nbsp;&nbsp;제공하는 안드로이드 앱 개발 공식 IDE.</td>
+    <td class="tg-f4yw">안드로이드&nbsp;&nbsp;&nbsp;개발에 최적화,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gradle 빌드 시스템 지원하여 복잡한 프로젝트 효율적으로 관리</td>
+    <td class="tg-f4yw">안드로이드&nbsp;&nbsp;&nbsp;플랫폼 종속</td>
+    <td class="tg-f4yw">안드로이드&nbsp;&nbsp;&nbsp;개발자</td>
+  </tr>
+  <tr>
+    <td class="tg-2g1l">Eclipse</td>
+    <td class="tg-f4yw">자바&nbsp;&nbsp;&nbsp;기반의 오픈 소스 IDE</td>
+    <td class="tg-f4yw">광범위한&nbsp;&nbsp;&nbsp;플러그인 확장성,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;오랜 역사와 커뮤니티를 통한 풍부한 자료</td>
+    <td class="tg-f4yw">느린&nbsp;&nbsp;&nbsp;성능,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;플러그인 간의 충돌 가능성 있음,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;투박한 인터페이스</td>
+    <td class="tg-f4yw">JAVA&nbsp;&nbsp;&nbsp;개발자</td>
+  </tr>
+</tbody></table>                     |
 
 
 

@@ -153,7 +153,7 @@ typora-root-url: ../
     <td class="tg-f4yw">느린&nbsp;&nbsp;&nbsp;성능,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;플러그인 간의 충돌 가능성 있음,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;투박한 인터페이스</td>
     <td class="tg-f4yw">JAVA&nbsp;&nbsp;&nbsp;개발자</td>
   </tr>
-</tbody></table>                     |
+</tbody></table>
 
 
 

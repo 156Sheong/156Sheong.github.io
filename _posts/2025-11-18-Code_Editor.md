@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "소스 코드 편집기와 통합 개발 환경 학습"
+title:  "소스 코드 편집기와 IDE 학습"
 categories: Programming
 tag: [Programming, TIL]
 toc: true

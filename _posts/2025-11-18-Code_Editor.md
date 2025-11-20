@@ -46,9 +46,9 @@ typora-root-url: ../
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-mzqp{background-color:#595959;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-2g1l{background-color:#000000;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-f4yw{background-color:#000000;text-align:center;vertical-align:middle}
+.tg .tg-mzqp{background-color:#1f5059;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-2g1l{background-color:#2f414a;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-f4yw{background-color:#2f414a;text-align:center;vertical-align:middle}
 </style>
 <table class="tg"><thead>
   <tr>
@@ -112,9 +112,9 @@ typora-root-url: ../
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-mzqp{background-color:#595959;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-2g1l{background-color:#000000;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-f4yw{background-color:#000000;text-align:center;vertical-align:middle}
+.tg .tg-mzqp{background-color:#1f5059;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-2g1l{background-color:#2f414a;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-f4yw{background-color:#2f414a;text-align:center;vertical-align:middle}
 </style>
 <table class="tg"><thead>
   <tr>

@@ -36,7 +36,6 @@ typora-root-url: ../
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-nfnx{background-color:#1f5059;border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
 .tg .tg-rcip{background-color:#2f414a;border-color:inherit;text-align:center;vertical-align:middle}
 </style>
 <table class="tg"><thead>
@@ -45,7 +44,6 @@ typora-root-url: ../
     <th class="tg-nfnx">기호</th>
     <th class="tg-nfnx">설명</th>
     <th class="tg-nfnx">단축 평가 여부</th>
-    <th class="tg-0pky"></th>
   </tr></thead>
 <tbody>
   <tr>
@@ -53,42 +51,36 @@ typora-root-url: ../
     <td class="tg-rcip">&amp;&amp;</td>
     <td class="tg-rcip">두&nbsp;&nbsp;&nbsp;개의 피연산자가 모두 TRUE일 때만 TRUE로 반환,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;한 쪽이라도 FALSE면 FALSE로 반환</td>
     <td class="tg-rcip">왼쪽&nbsp;&nbsp;&nbsp;피연산자 먼저 평가 -&gt; 값이 FALSE 이면 우측 피연산자는 평가 건너뜀</td>
-    <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-rcip">비조건부 AND</td>
     <td class="tg-rcip">&amp;</td>
     <td class="tg-rcip">두&nbsp;&nbsp;&nbsp;개의 피연산자가 모두 TRUE일 때만 TRUE로 반환,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;한 쪽이라도 FALSE면 FALSE로 반환</td>
     <td class="tg-rcip">X</td>
-    <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-rcip">조건부 OR</td>
     <td class="tg-rcip">||</td>
     <td class="tg-rcip">두&nbsp;&nbsp;&nbsp;개의 피연산자 중 하나가 TRUE면 TRUE로 반환,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;두 피연산자 모두 FALSE면 FALSE로 반환</td>
     <td class="tg-rcip">왼쪽&nbsp;&nbsp;&nbsp;피연산자 먼저 평가 -&gt; 값이 TRUE 이면 우측 피연산자는 평가 건너뜀</td>
-    <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-rcip">비조건부 OR</td>
     <td class="tg-rcip">|</td>
     <td class="tg-rcip">두&nbsp;&nbsp;&nbsp;개의 피연산자 중 하나가 TRUE면 TRUE로 반환,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;두 피연산자 모두 FALSE면 FALSE로 반환</td>
     <td class="tg-rcip">X</td>
-    <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-rcip">배타적 논리합 XOR</td>
     <td class="tg-rcip">^</td>
     <td class="tg-rcip">두&nbsp;&nbsp;&nbsp;개의 피연산자의 값이 서로 다를 경우에만 TRUE로 반환,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;두피연산자의 값이 서로 같을 경우 FALSE로 반환</td>
     <td class="tg-rcip">X</td>
-    <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-rcip">논리 부정 NOT</td>
     <td class="tg-rcip">!</td>
     <td class="tg-rcip">단항&nbsp;&nbsp;&nbsp;연산자로, 피연산자의 논리 값을 반대로 뒤집음,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;!TRUE -&gt; FALSE / !FALSE -&gt; TRUE</td>
     <td class="tg-rcip">X</td>
-    <td class="tg-0pky"></td>
   </tr>
 </tbody></table>
 

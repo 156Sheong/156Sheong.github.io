@@ -29,21 +29,68 @@ typora-root-url: ../
 ## B. 논리 연산자에 대하여
 - 둘 이상의 조건식 또는 불 값을 결합해 단일의 참 / 거짓 결과를 반환한느데 사용되는 연산자
 - 논리 연산자의 종류
-% Please add the following required packages to your document preamble:
-% \usepackage[table,xcdraw]{xcolor}
-% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
-\begin{table}[]
-\begin{tabular}{
->{\columncolor[HTML]{2f414a}}c 
->{\columncolor[HTML]{2f414a}}c 
->{\columncolor[HTML]{2f414a}}c 
->{\columncolor[HTML]{2f414a}}c l}
-\cellcolor[HTML]{1f5059}\textbf{종류} & \cellcolor[HTML]{1f5059}\textbf{기호} & \cellcolor[HTML]{1f5059}\textbf{설명}                                                                                                  & \cellcolor[HTML]{1f5059}\textbf{단축 평가 여부}                 &  \\
-조건부 AND                             & \&\&                                & \begin{tabular}[c]{@{}c@{}}두   개의 피연산자가 모두 TRUE일 때만 TRUE로 반환,\\      한 쪽이라도 FALSE면 FALSE로 반환\end{tabular}                            & 왼쪽   피연산자 먼저 평가 -\textgreater 값이 FALSE 이면 우측 피연산자는 평가 건너뜀 &  \\
-비조건부 AND                            & \&                                  & \begin{tabular}[c]{@{}c@{}}두   개의 피연산자가 모두 TRUE일 때만 TRUE로 반환,\\      한 쪽이라도 FALSE면 FALSE로 반환\end{tabular}                            & X                                                         &  \\
-조건부 OR                              & \textbackslash{}|\textbackslash{}|  & \begin{tabular}[c]{@{}c@{}}두   개의 피연산자 중 하나가 TRUE면 TRUE로 반환,\\      두 피연산자 모두 FALSE면 FALSE로 반환\end{tabular}                          & 왼쪽   피연산자 먼저 평가 -\textgreater 값이 TRUE 이면 우측 피연산자는 평가 건너뜀  &  \\
-비조건부 OR                             & \textbackslash{}|                   & \begin{tabular}[c]{@{}c@{}}두   개의 피연산자 중 하나가 TRUE면 TRUE로 반환,\\      두 피연산자 모두 FALSE면 FALSE로 반환\end{tabular}                          & X                                                         &  \\
-배타적 논리합 XOR                         & \textbackslash{}\textasciicircum{}  & \begin{tabular}[c]{@{}c@{}}두   개의 피연산자의 값이 서로 다를 경우에만 TRUE로 반환,\\      두피연산자의 값이 서로 같을 경우 FALSE로 반환\end{tabular}                     & X                                                         &  \\
-논리 부정 NOT                           & \textbackslash{}!                   & \begin{tabular}[c]{@{}c@{}}단항   연산자로, 피연산자의 논리 값을 반대로 뒤집음,\\      !TRUE -\textgreater FALSE / !FALSE -\textgreater TRUE\end{tabular} & X                                                         & 
-\end{tabular}
-\end{table}
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-c3ow">종류</th>
+    <th class="tg-c3ow">기호</th>
+    <th class="tg-c3ow">설명</th>
+    <th class="tg-c3ow">단축 평가 여부</th>
+    <th class="tg-0pky"></th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">조건부 AND</td>
+    <td class="tg-c3ow">1</td>
+    <td class="tg-c3ow">두&nbsp;&nbsp;&nbsp;개의 피연산자가 모두 TRUE일 때만 TRUE로 반환,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;한 쪽이라도 FALSE면 FALSE로 반환</td>
+    <td class="tg-c3ow">왼쪽&nbsp;&nbsp;&nbsp;피연산자 먼저 평가 -&gt; 값이 FALSE 이면 우측 피연산자는 평가 건너뜀</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">비조건부 AND</td>
+    <td class="tg-c3ow">2</td>
+    <td class="tg-c3ow">두&nbsp;&nbsp;&nbsp;개의 피연산자가 모두 TRUE일 때만 TRUE로 반환,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;한 쪽이라도 FALSE면 FALSE로 반환</td>
+    <td class="tg-c3ow">X</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">조건부 OR</td>
+    <td class="tg-c3ow">3</td>
+    <td class="tg-c3ow">두&nbsp;&nbsp;&nbsp;개의 피연산자 중 하나가 TRUE면 TRUE로 반환,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;두 피연산자 모두 FALSE면 FALSE로 반환</td>
+    <td class="tg-c3ow">왼쪽&nbsp;&nbsp;&nbsp;피연산자 먼저 평가 -&gt; 값이 TRUE 이면 우측 피연산자는 평가 건너뜀</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">비조건부 OR</td>
+    <td class="tg-c3ow">4</td>
+    <td class="tg-c3ow">두&nbsp;&nbsp;&nbsp;개의 피연산자 중 하나가 TRUE면 TRUE로 반환,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;두 피연산자 모두 FALSE면 FALSE로 반환</td>
+    <td class="tg-c3ow">X</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">배타적 논리합 XOR</td>
+    <td class="tg-c3ow">5</td>
+    <td class="tg-c3ow">두&nbsp;&nbsp;&nbsp;개의 피연산자의 값이 서로 다를 경우에만 TRUE로 반환,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;두피연산자의 값이 서로 같을 경우 FALSE로 반환</td>
+    <td class="tg-c3ow">X</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">논리 부정 NOT</td>
+    <td class="tg-c3ow">6</td>
+    <td class="tg-c3ow">단항&nbsp;&nbsp;&nbsp;연산자로, 피연산자의 논리 값을 반대로 뒤집음,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;!TRUE -&gt; FALSE / !FALSE -&gt; TRUE</td>
+    <td class="tg-c3ow">X</td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody></table>
+
+
+## B. 조건문에 대하여
+- 특정 조건식의 평가 결과(TRUE / FALSE)에 따라 어떤 코드 블록을 실행할지, 아니면 건너뛸지를 결정하는 구문

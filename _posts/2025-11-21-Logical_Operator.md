@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "논리 연산자와 조건문 학습"
+title:  "논리 연산자와 조건문 학습(조건문 추가 중)"
 categories: Programming
 tag: [Programming, TIL, CSharp]
 toc: true

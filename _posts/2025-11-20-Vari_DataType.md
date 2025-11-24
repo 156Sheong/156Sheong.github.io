@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "변수 및 자료형 학습"
+title:  "변수 및 자료형 학습(수정 중)"
 categories: Programming
 tag: [Programming, TIL, CSharp]
 toc: true

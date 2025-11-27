@@ -59,62 +59,62 @@ typora-root-url: ../
 ### Bd. 비주얼 스튜디오의 디버깅 관련 단축키
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
-.tg td{background-color:#2f414a;border-color:#93a1a1;border-style:solid;border-width:1px;color:#002b36;
+.tg td{background-color:#fdf6e3;border-color:#93a1a1;border-style:solid;border-width:1px;color:#002b36;
   font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#1f5059;border-color:#93a1a1;border-style:solid;border-width:1px;color:#fdf6e3;
+.tg th{background-color:#657b83;border-color:#93a1a1;border-style:solid;border-width:1px;color:#fdf6e3;
   font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-lguo{background-color:#2f414a;border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-1ciu{background-color:#2f414a;border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-sc8u{background-color:#2f414a;border-color:inherit;text-align:left;vertical-align:middle}
-.tg .tg-mak0{background-color:#2f414a;border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-rleq{background-color:#2f414a;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-2lyk{background-color:#68cbd0;border-color:inherit;color:#ffffff;text-align:center;vertical-align:middle}
+.tg .tg-vm6i{background-color:#329a9d;border-color:inherit;color:#ffffff;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-g06a{background-color:#68cbd0;border-color:inherit;color:#ffffff;text-align:left;vertical-align:middle}
+.tg .tg-exe4{background-color:#68cbd0;border-color:inherit;color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-azzy{background-color:#68cbd0;border-color:inherit;color:#ffffff;text-align:left;vertical-align:top}
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-1ciu">단축키</th>
-    <th class="tg-1ciu">설명</th>
-    <th class="tg-1ciu">기능 상세</th>
+    <th class="tg-vm6i">단축키</th>
+    <th class="tg-vm6i">설명</th>
+    <th class="tg-vm6i">기능 상세</th>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-lguo">F5</td>
-    <td class="tg-lguo">디버깅 시작</td>
-    <td class="tg-sc8u">디버거와 함께 프로그램 실행 시작, 다음 중단점까지 실행</td>
+    <td class="tg-2lyk">F5</td>
+    <td class="tg-2lyk">디버깅 시작</td>
+    <td class="tg-g06a">디버거와 함께 프로그램 실행 시작, 다음 중단점까지 실행</td>
   </tr>
   <tr>
-    <td class="tg-lguo">Shift + F5</td>
-    <td class="tg-lguo">디버깅 중지</td>
-    <td class="tg-sc8u">현재 디버깅 세션을 종료</td>
+    <td class="tg-2lyk">Shift + F5</td>
+    <td class="tg-2lyk">디버깅 중지</td>
+    <td class="tg-g06a">현재 디버깅 세션을 종료</td>
   </tr>
   <tr>
-    <td class="tg-lguo">F9</td>
-    <td class="tg-lguo">중단점 설정 /해제</td>
-    <td class="tg-sc8u">현재 커서가 있는 줄에 중단점을 설정하거나 해제</td>
+    <td class="tg-2lyk">F9</td>
+    <td class="tg-2lyk">중단점 설정 /해제</td>
+    <td class="tg-g06a">현재 커서가 있는 줄에 중단점을 설정하거나 해제</td>
   </tr>
   <tr>
-    <td class="tg-lguo">F10</td>
-    <td class="tg-lguo">한 단계 프로시저 단위 실행</td>
-    <td class="tg-sc8u">현재 줄을 실행하고 다음 줄로 이동. 함수 내부로 들어가지 않고(Step Over), 함수 전체 실행 후 다음 줄로 이동</td>
+    <td class="tg-2lyk">F10</td>
+    <td class="tg-2lyk">한 단계 프로시저 단위 실행</td>
+    <td class="tg-g06a">현재 줄을 실행하고 다음 줄로 이동. 함수 내부로 들어가지 않고(Step Over), 함수 전체 실행 후 다음 줄로 이동</td>
   </tr>
   <tr>
-    <td class="tg-lguo">F11</td>
-    <td class="tg-lguo">한 단계씩 코드 실행</td>
-    <td class="tg-sc8u">현재 줄을 실행하고 다음 줄로 이동. 함수 내부로 진입(Step Into)하여 자세히 디버깅</td>
+    <td class="tg-2lyk">F11</td>
+    <td class="tg-2lyk">한 단계씩 코드 실행</td>
+    <td class="tg-g06a">현재 줄을 실행하고 다음 줄로 이동. 함수 내부로 진입(Step Into)하여 자세히 디버깅</td>
   </tr>
   <tr>
-    <td class="tg-lguo">Shift + F11</td>
-    <td class="tg-lguo">한 단계 프로시저 나가기</td>
-    <td class="tg-sc8u">현재 함수 실행을 완료하고 해당 함수를 호출한 위치로 돌아감(Step Out)</td>
+    <td class="tg-2lyk">Shift + F11</td>
+    <td class="tg-2lyk">한 단계 프로시저 나가기</td>
+    <td class="tg-g06a">현재 함수 실행을 완료하고 해당 함수를 호출한 위치로 돌아감(Step Out)</td>
   </tr>
   <tr>
-    <td class="tg-mak0">Ctrl + F10</td>
-    <td class="tg-mak0">커서까지 실행</td>
-    <td class="tg-rleq">커서가 위치한 곳까지 프로그램 실행을 계속</td>
+    <td class="tg-exe4">Ctrl + F10</td>
+    <td class="tg-exe4">커서까지 실행</td>
+    <td class="tg-azzy">커서가 위치한 곳까지 프로그램 실행을 계속</td>
   </tr>
   <tr>
-    <td class="tg-mak0">F1</td>
-    <td class="tg-mak0">도움말</td>
-    <td class="tg-rleq">특정 키워드나 메뉴에 대한 도움말 확인</td>
+    <td class="tg-exe4">F1</td>
+    <td class="tg-exe4">도움말</td>
+    <td class="tg-azzy">특정 키워드나 메뉴에 대한 도움말 확인</td>
   </tr>
 </tbody></table>
 

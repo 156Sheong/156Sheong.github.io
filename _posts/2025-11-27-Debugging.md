@@ -26,13 +26,17 @@ typora-root-url: ../
 
 
 
-## B. 디버깅의 정의
+## B. 디버깅
+
+
+
+### Ba. 디버깅의 정의
 - 코드가 예상대로 작동하지 않을 때, 코드 내 버그를 식별하고, 위치를 찾아내며, 수정하는 과정
 - 비주얼 스튜디오의 경우 통합 디버거를 활용해 버그를 빠르게 찾아낼 수 있음
 
 
 
-## C. 디버깅 과정 및 방법
+### Bb. 디버깅 과정 및 방법
 1. 문제 재현 : 버그가 발생한 특정 시나리오나 입력값을 찾음
 2. 격리 및 분석
    - 비주얼 스튜디오 디버거 등을 사용하여 프로그램 실행을 중단, 버그가 발생한 코드 영역을 격리함
@@ -44,7 +48,7 @@ typora-root-url: ../
 
 
 
-## D. 비주얼 스튜디오의 주요 디버깅 도구 및 기술
+### Bc. 비주얼 스튜디오의 주요 디버깅 도구 및 기술
 - 중단점(Breakpoints) : 코드의 특정 줄에서 프로그램 실행을 일시 중지함
 - 조사식(Watch) 창 / 자동(Autos) 창 / 지역(Locals) 창 : 중단점에서 멈췄을 때, 특정 변수나 표현식의 현재 값을 실시강 모니터링 가능
 - 호출 스택(Call Stack) 창 : 현재 실행 위치에 도달하기 까지 호출된 함수의 순서를 보여줌
@@ -52,15 +56,15 @@ typora-root-url: ../
 
 
 
-## E. 관련 단축키
+### Bd. 비주얼 스튜디오의 디버깅 관련 단축키
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-nfnx{background-color:#E8E8E8;border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-rcip{background-color:#FFF;border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-nfnx{background-color:#1f5059;border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-rcip{background-color:#2f414a;border-color:inherit;text-align:center;vertical-align:middle}
 </style>
 <table class="tg"><thead>
   <tr>
@@ -107,3 +111,23 @@ typora-root-url: ../
     <td class="tg-rcip">X</td>
   </tr>
 </tbody></table>
+
+
+
+## C. 유니티 프로파일러
+
+
+
+### Ca. 유니티 프로파일러의 정의
+- 유니티 엔진으로 개발 중인 애플리케이션의 성능 정보를 수집하고 분석하는 성능 분석 도구
+- 애플리케이션 실행 중 CPU, GPU, 메모리, 랜더링, 오디오 등 다양한 영역에서 시간이 얼마나 소요되는지 차트로 표시하여 성능 병목 현상(bottleneck)을 식별하고 최적화 할 수 있도록 도움
+
+
+
+### Cb. 유니티 프로파일러의 주요 구성 요소 (Profiler Modules)
+- CPU Usage (CPU 사용량) : 애플리케이션이 각 프레임에 소비하는 시간에 대한 포괄적 정보 제공, 스크립트 실행, 물리 엔진, 가비지 컬렉션(GC), 애니메이션 등 다양한 작업에 소요되는 시간을 계층 구조나 타임라인 형태로 보여줌
+- GPU Usage (GPU 사용량) : 렌더링 작업에 대한 성능 데이터를 표시, GPU 관련 병목 현상을 식별하는 데 사용
+- Memory (메모리) : 애플리케이션의 메모리 사용량에 대한 정보를 제공, 각 에셋이 얼마나 많은 메모리를 차지하는지, 메모리 누수(Memory Leak)가 있는지 확인 가능
+- Rendering (렌더링) : 렌더링 통계, 화면 해상도, 초당 프레임 수, 배치(Batching) 정보 등을 상세히 표시함
+- Audio (오디오) : 현재 재생 중인 오디오 소스 수, 오디오 로드 시간 등 오디오 시스템의 성능 부하를 모니터링함
+- Physics/Physics 2D (물리/2D 물리) : 물리 계산에 소요되는 시간을 보여주어, 과도한 물리 연산을 최적화 할 수 있도록 도움

@@ -63,52 +63,58 @@ typora-root-url: ../
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0ys1{background-color:#2f414a;border-color:inherit;text-align:left;vertical-align:middle}
 .tg .tg-nfnx{background-color:#1f5059;border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
 .tg .tg-rcip{background-color:#2f414a;border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-nfnx">종류</th>
-    <th class="tg-nfnx">기호</th>
+    <th class="tg-nfnx">단축키</th>
     <th class="tg-nfnx">설명</th>
-    <th class="tg-nfnx">단축 평가 여부</th>
+    <th class="tg-nfnx">기능 상세</th>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-rcip">조건부 AND</td>
-    <td class="tg-rcip">&amp;&amp;</td>
-    <td class="tg-rcip">두&nbsp;&nbsp;&nbsp;개의 피연산자가 모두 TRUE일 때만 TRUE로 반환,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;한 쪽이라도 FALSE면 FALSE로 반환</td>
-    <td class="tg-rcip">왼쪽&nbsp;&nbsp;&nbsp;피연산자 먼저 평가 -&gt; 값이 FALSE 이면 우측 피연산자는 평가 건너뜀</td>
+    <td class="tg-rcip">F5</td>
+    <td class="tg-rcip">디버깅 시작</td>
+    <td class="tg-0ys1">디버거와 함께 프로그램 실행 시작, 다음 중단점까지 실행</td>
   </tr>
   <tr>
-    <td class="tg-rcip">비조건부 AND</td>
-    <td class="tg-rcip">&amp;</td>
-    <td class="tg-rcip">두&nbsp;&nbsp;&nbsp;개의 피연산자가 모두 TRUE일 때만 TRUE로 반환,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;한 쪽이라도 FALSE면 FALSE로 반환</td>
-    <td class="tg-rcip">X</td>
+    <td class="tg-rcip">Shift + F5</td>
+    <td class="tg-rcip">디버깅 중지</td>
+    <td class="tg-0ys1">현재 디버깅 세션을 종료</td>
   </tr>
   <tr>
-    <td class="tg-rcip">조건부 OR</td>
-    <td class="tg-rcip">||</td>
-    <td class="tg-rcip">두&nbsp;&nbsp;&nbsp;개의 피연산자 중 하나가 TRUE면 TRUE로 반환,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;두 피연산자 모두 FALSE면 FALSE로 반환</td>
-    <td class="tg-rcip">왼쪽&nbsp;&nbsp;&nbsp;피연산자 먼저 평가 -&gt; 값이 TRUE 이면 우측 피연산자는 평가 건너뜀</td>
+    <td class="tg-rcip">F9</td>
+    <td class="tg-rcip">중단점 설정 /해제</td>
+    <td class="tg-0ys1">현재 커서가 있는 줄에 중단점을 설정하거나 해제</td>
   </tr>
   <tr>
-    <td class="tg-rcip">비조건부 OR</td>
-    <td class="tg-rcip">|</td>
-    <td class="tg-rcip">두&nbsp;&nbsp;&nbsp;개의 피연산자 중 하나가 TRUE면 TRUE로 반환,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;두 피연산자 모두 FALSE면 FALSE로 반환</td>
-    <td class="tg-rcip">X</td>
+    <td class="tg-rcip">F10</td>
+    <td class="tg-rcip">한 단계 프로시저 단위 실행</td>
+    <td class="tg-0ys1">현재 줄을 실행하고 다음 줄로 이동. 함수 내부로 들어가지 않고(Step Over), 함수 전체 실행 후 다음 줄로 이동</td>
   </tr>
   <tr>
-    <td class="tg-rcip">배타적 논리합 XOR</td>
-    <td class="tg-rcip">^</td>
-    <td class="tg-rcip">두&nbsp;&nbsp;&nbsp;개의 피연산자의 값이 서로 다를 경우에만 TRUE로 반환,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;두피연산자의 값이 서로 같을 경우 FALSE로 반환</td>
-    <td class="tg-rcip">X</td>
+    <td class="tg-rcip">F11</td>
+    <td class="tg-rcip">한 단계씩 코드 실행</td>
+    <td class="tg-0ys1">현재 줄을 실행하고 다음 줄로 이동. 함수 내부로 진입(Step Into)하여 자세히 디버깅</td>
   </tr>
   <tr>
-    <td class="tg-rcip">논리 부정 NOT</td>
-    <td class="tg-rcip">!</td>
-    <td class="tg-rcip">단항&nbsp;&nbsp;&nbsp;연산자로, 피연산자의 논리 값을 반대로 뒤집음,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;!TRUE -&gt; FALSE / !FALSE -&gt; TRUE</td>
-    <td class="tg-rcip">X</td>
+    <td class="tg-rcip">Shift + F11</td>
+    <td class="tg-rcip">한 단계 프로시저 나가기</td>
+    <td class="tg-0ys1">현재 함수 실행을 완료하고 해당 함수를 호출한 위치로 돌아감(Step Out)</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Ctrl + F10</td>
+    <td class="tg-c3ow">커서까지 실행</td>
+    <td class="tg-0pky">커서가 위치한 곳까지 프로그램 실행을 계속</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">F1</td>
+    <td class="tg-c3ow">도움말</td>
+    <td class="tg-0pky">특정 키워드나 메뉴에 대한 도움말 확인</td>
   </tr>
 </tbody></table>
 

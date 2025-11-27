@@ -63,11 +63,11 @@ typora-root-url: ../
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-0ys1{background-color:#2f414a;border-color:inherit;text-align:left;vertical-align:middle}
 .tg .tg-nfnx{background-color:#1f5059;border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-rcip{background-color:#2f414a;border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-rq3n{background-color:#2f414a;border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-mfxt{background-color:#2f414a;border-color:inherit;text-align:left;vertical-align:middle}
+.tg .tg-3xi5{background-color:#2f414a;border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-c6of{background-color:#2f414a;border-color:inherit;text-align:left;vertical-align:middle}
 </style>
 <table class="tg"><thead>
   <tr>
@@ -137,3 +137,12 @@ typora-root-url: ../
 - Rendering (렌더링) : 렌더링 통계, 화면 해상도, 초당 프레임 수, 배치(Batching) 정보 등을 상세히 표시함
 - Audio (오디오) : 현재 재생 중인 오디오 소스 수, 오디오 로드 시간 등 오디오 시스템의 성능 부하를 모니터링함
 - Physics/Physics 2D (물리/2D 물리) : 물리 계산에 소요되는 시간을 보여주어, 과도한 물리 연산을 최적화 할 수 있도록 도움
+
+
+
+### Cc. 유니티 프로파일러의 사용법
+1. 프로파일러 열기 : 유니티 에디터 상단 메뉴에서 Window > Analysis > Profiler를 선택 or 단축키 Ctrl + 7 (macOS: Cmd + 7)
+2. 프로파일링 대상 설정
+   - 에디터의 플레이 모드(Play Mode)에 들어가서 테스트 및 데이터 실시간 확인 가능
+   - 실제 기기를 연결하여 Development Build 옵션을 활성화하여 빌드하고, 해당 기기를 연결해 테스트 및 데이터 실시간 확인 가능
+3. 데이터 분석 : 타임라인 차트나, 상세 정보 패널에서 성능 스파이크, 상세한 계층적 데이터 확인 가능

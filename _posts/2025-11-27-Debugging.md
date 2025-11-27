@@ -22,7 +22,7 @@ typora-root-url: ../
 
 - 작성 툴 : Typora, Visual Studio Code
 
-- 정보 출처 : 경일게임IT아카데미 프로그래밍 4기 - 온보딩 캠프 9일차 강의 내용, [마이크로소프트 Learn 디버거 설명](https://learn.microsoft.com/ko-kr/visualstudio/debugger/debugger-feature-tour?view=visualstudio) 등
+- 정보 출처 : 경일게임IT아카데미 프로그래밍 4기 - 온보딩 캠프 9일차 강의 내용, [마이크로소프트 Learn 디버거 설명](https://learn.microsoft.com/ko-kr/visualstudio/debugger/debugger-feature-tour?view=visualstudio), [유니티 매뉴얼 프로파일러 설명](https://docs.unity3d.com/kr/2019.3/Manual/ProfilerCPU.html) 등
 
 
 

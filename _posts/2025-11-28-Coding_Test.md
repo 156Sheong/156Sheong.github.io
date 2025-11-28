@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "코딩 테스트에 대하여"
+title:  "코딩 테스트에 대하여(온보딩 홈페이지의 내용도 추가 필요)"
 categories: Programming
 tag: [Programming, TIL, CSharp]
 toc: true

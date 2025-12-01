@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "스탠포드 카렐 학습"
+title:  "스탠포드 카렐 학습(공개된 교안에 따른 내용 수정 필요)"
 categories: Programming
 tag: [Programming, TIL, CSharp]
 toc: true

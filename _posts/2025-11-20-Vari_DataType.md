@@ -22,24 +22,45 @@ typora-root-url: ../
 
 - 작성 툴 : Typora, Visual Studio Code
 
-- 정보 출처 : 경일게임IT아카데미 프로그래밍 4기 - 온보딩 캠프 3일차 강의 내용 등
+- 정보 출처 : 경일게임IT아카데미 프로그래밍 4기 - 온보딩 캠프 3일차 강의 내용, [마이크로소프트 C# 기본 제공 형식 문서](https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/builtin-types/built-in-types) 등
 
 
 
-## B. 변수와 자료형에 대하여
-- 자료형
-  - 정수형
-    - int
-    - uint
-    - long
-    - ulong
-  - 실수형
-    - float
-    - double
-    - decimal
+## B. 변수와 상수 설명
+- 변수와 상수는 값을 저장하기 위한 이름이 있는 메모리 공간
+- 변수와 상수는 특정 자료형(Data Type) 가짐
+  
+- **변수(Variable)**
+  - 프로그램이 실행되는 동안 값이 변경될 수 있는 메모리 공간
+  - 변수 안에 저장된 값은 언제든지 변경될 수 있음
+  
+- **상수(constant)**
+  - 한 번 할당되면 프로그램 실행 중 절대 변경할 수 없는 값(변경하려고 시도하면 오류 발생)
+  - 변수 선언 시, 변수명 앞에 const 를 붙임
+  - 예시 : const int maxHP = 100;
+
+
+
+## B. 자료형의 종류와 설명
+- 정수형
+  - int
+  - uint
+  - long
+  - ulong
+- 실수형
+  - float
+  - double
+  - decimal
+- 문자형
   - char
   - string
+- 논리형
   - bool
+- 시퀀스형
+  - list
+  - tuple
+- 매핑형
+  - dictionary
 
 - 변수명 규칙
   - 파스칼 케이스

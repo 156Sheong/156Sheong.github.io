@@ -61,9 +61,15 @@ typora-root-url: ../
 
 
 
-## D. 보조 사이트
+## D. 보조 에셋 사이트
 - **[mixamo](https://www.mixamo.com/#/)**
   - 3D 캐릭터에 애니메이션을 입히는 사이트
+- **[유튜브 오디오 라이브러리](https://studio.youtube.com/channel/UCljx3NA98RX4RGVv8K1BCPA/music)**
+  - 유튜브에서 제공하는 오디오 라이브러리
+- **[Sound Effect Lab(일본어)](https://soundeffect-lab.info/)**
+  - 사운드를 무료로 상업적으로 사용할 수 있는 사이트
+- **[해파리 공장(일본어)](http://www.kurage-kosho.info/index.html)**
+-  - 사운드를 무료로 상업적으로 사용할 수 있는 사이트
 
 
 

@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "논리 연산과 논리 게이트(추가 중)"
+title:  "논리 연산과 논리 게이트(추후 추가 예정)"
 categories: Programming
 tag: [Programming, TIL, Computer_math, Discrete_Math]
 toc: true

@@ -95,7 +95,8 @@ typora-root-url: ../
 ## D. 주요 조건문의 형태
 - if / else if / else 문
   - 사용 예시
-```csharp
+  
+  ```csharp
   public enum StamState
   {
       Fresh,       
@@ -127,11 +128,12 @@ typora-root-url: ../
 
     return currentState;
   }
-```
+  ```
 
 - switch / case 문
   - 사용 예시
-```csharp
+  
+  ```csharp
   public enum GameDifficulty
   {
       Casual = 0, // 캐주얼
@@ -169,4 +171,4 @@ typora-root-url: ../
         break;
     }
   }
-```
+  ```

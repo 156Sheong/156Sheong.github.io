@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "논리 연산자와 조건문 학습(조건문 추가 중)"
+title:  "논리 연산자와 조건문 학습"
 categories: Programming
 tag: [Programming, TIL, CSharp]
 toc: true
@@ -86,13 +86,87 @@ typora-root-url: ../
 
 
 
-## B. 조건문에 대하여
+## C. 조건문에 대하여
 - 프로그램 실행 중에 특정 조건식의 평가 결과(TRUE / FALSE)에 따라 다르게 동작하는, 코드의 실행 흐름을 제어하는 데 사용하는 구문
 - 주어진 조건식이 참(TURE)이면 특정 코드 블록을 실행하고, 거짓(FALSE)이면 다른 코드 블록을 실행하거나 건너뛰는 형태로 작동
 
 
 
-## C. 주요 조건문의 형태
+## D. 주요 조건문의 형태
 - if / else if / else 문
-- 
+  - 사용 예시
+  ```csharp
+  public enum StamState
+  {
+      Fresh,       
+      Normal,      
+      Tired,       
+      Exhausted    
+  }
+
+  public StamState StaminaCondition(float currentStam,float maxStam)
+  {
+    StamState currentState;
+
+    if(currentStam / maxStam > 0.75)
+    {
+      currentState = StamState.Fresh;
+    }
+    else if(currentStam / maxStam > 0.5)
+    {
+      currentState = StamState.Normal;
+    }
+    else if(currentStam / maxStam > 0.25)
+    {
+      currentState = StamState.Tired;
+    }
+    else
+    {
+      currentState = StamState.Exhausted;
+    }
+
+    return currentState;
+  }
+  ```
+
 - switch / case 문
+  - 사용 예시
+  ```csharp
+  public enum GameDifficulty
+  {
+      Casual = 0, // 캐주얼
+      Standard = 1, // 표준
+      Advanced = 2, // 숙련자
+      Challenging = 3,  // 도전
+      Insane = 4  // 광기
+  }
+
+  public void PrintGameDifficulty(GameDifficulty selectDifficulty)
+  {
+    GameDifficulty currentDifficulty;
+    
+    switch(selectDifficulty)
+    {
+      case GameDifficulty.Standard:
+        currentDifficulty = selectDifficulty;
+        Console.WriteLine("표준 난이도 입니다");
+        break;
+      case GameDifficulty.Advanced:
+        currentDifficulty = selectDifficulty;
+        Console.WriteLine("숙련자 난이도 입니다");
+        break;
+      case GameDifficulty.Challenging:
+        currentDifficulty = selectDifficulty;
+        Console.WriteLine("도전 난이도 입니다");
+        break;
+      case GameDifficulty.Insane:
+        currentDifficulty = selectDifficulty;
+        Console.WriteLine("광기 난이도 입니다");
+        break;
+      default:
+        currentDifficulty = selectDifficulty;
+        Console.WriteLine("캐주얼 난이도 입니다");
+        break;
+    }
+  }
+  ```

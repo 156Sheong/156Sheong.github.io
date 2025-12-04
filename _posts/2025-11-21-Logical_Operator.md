@@ -22,12 +22,12 @@ typora-root-url: ../
 
 - 작성 툴 : Typora, Visual Studio Code
 
-- 정보 출처 : 경일게임IT아카데미 프로그래밍 4기 - 온보딩 캠프 5일차 강의 내용 등
+- 정보 출처 : 경일게임IT아카데미 프로그래밍 4기 - 온보딩 캠프 5일차 강의 내용, [명지대학교 이산수학 유튜브](https://youtu.be/2XLwJDi_Q4Y?si=iTACz1gX2aCNLdeY) 등
 
 
 
 ## B. 논리 연산자에 대하여
-- 둘 이상의 조건식 또는 불 값을 결합해 단일의 참 / 거짓 결과를 반환한느데 사용되는 연산자
+- 둘 이상의 조건식 또는 불 값을 결합해 단일의 참 / 거짓 결과를 반환하는데 사용되는 연산자
 - 논리 연산자의 종류
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -85,6 +85,14 @@ typora-root-url: ../
 </tbody></table>
 
 
+
 ## B. 조건문에 대하여
 - 프로그램 실행 중에 특정 조건식의 평가 결과(TRUE / FALSE)에 따라 다르게 동작하는, 코드의 실행 흐름을 제어하는 데 사용하는 구문
 - 주어진 조건식이 참(TURE)이면 특정 코드 블록을 실행하고, 거짓(FALSE)이면 다른 코드 블록을 실행하거나 건너뛰는 형태로 작동
+
+
+
+## C. 주요 조건문의 형태
+- if / else if / else 문
+- 
+- switch / case 문

@@ -61,12 +61,19 @@ typora-root-url: ../
 - 카렐로 문제를 푸는 것은 실제 프로그래밍과 동일한 과정
 - 명령을 순서대로 실행하는 순차 구조, 조건에 따른 조건문, 동작을 반복하는 반복문 모두 경험 가능
 - 카렐이 움직이는 모습을 직접 눈으로 확인 가능해 코드 동작을 이해하기 쉬움
-- 문제 해결 단계<br>
-  1) **문제 파악하기**<br>
+- 문제 해결 단계
+  1. **문제 파악하기**
     - 카렐의 시작 위치, 방향, 목표 확인
-  2) **계획 세우기**<br>
+  2. **계획 세우기**
     - 필요한 동작을 순서대로 나열
-  3) **코드 작성하기**<br>
+  3. **코드 작성하기**
     - 명령어를 순서대로 작성
-  4) **실행하고 확인하기**<br>
+  4. **실행하고 확인하기**
     - 카렐이 의도대로 움직이는지 확인
+
+
+
+## E. 풀어볼만한 어려운 문제
+- [유닛 8 레슨 5](https://stanford.edu/~cpiech/karel/lessons.html#/english/unit8/lesson5)
+- [유닛 9 레슨 2](https://stanford.edu/~cpiech/karel/lessons.html#/english/unit9/lesson2)
+- [유닛 12 레슨 1](https://stanford.edu/~cpiech/karel/lessons.html#/english/unit12/lesson1)

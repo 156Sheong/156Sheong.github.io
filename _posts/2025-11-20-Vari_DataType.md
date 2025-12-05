@@ -43,7 +43,6 @@ typora-root-url: ../
 
 ## B. 자료형의 종류와 설명
 
-
 ### Ba. 값 형식 (Value Types)
 - 값 형식 자료형의 변수는 데이터를 집적 저장
 - 주로 기본 제공 형식(built-in types)이 속함
@@ -98,19 +97,19 @@ typora-root-url: ../
   <tr>
     <td class="tg-vg0y">float</td>
     <td class="tg-vg0y">4   bytes</td>
-    <td class="tg-vg0y">단정밀도   부동 소수점 수 (소수점 7자리)</td>
+    <td class="tg-vg0y">단정밀도   부동 소수점 실수 (소수점 7자리)</td>
     <td class="tg-vg0y">float   f = 10.2f;</td>
   </tr>
   <tr>
     <td class="tg-vg0y">double</td>
     <td class="tg-vg0y">8   bytes</td>
-    <td class="tg-vg0y">배정밀도   부동 소수점 수 (소수점 15자리)</td>
+    <td class="tg-vg0y">배정밀도   부동 소수점 실수 (소수점 15자리)</td>
     <td class="tg-vg0y">double   d = 19.99;</td>
   </tr>
   <tr>
     <td class="tg-vg0y">decimal</td>
     <td class="tg-vg0y">16   bytes</td>
-    <td class="tg-vg0y">금융 계산   등에 사용되는 높은 정밀도의 십진수</td>
+    <td class="tg-vg0y">금융 계산   등에 사용되는 높은 정밀도의 실수</td>
     <td class="tg-vg0y">decimal   money = 12.5m;</td>
   </tr>
   <tr>
@@ -163,6 +162,16 @@ typora-root-url: ../
     <td class="tg-vg0y">MyClass   mc = new MyClass();</td>
   </tr>
   <tr>
+    <td class="tg-vg0y">array, List<T></td>
+    <td class="tg-vg0y">순서가 있는 데이터의 집합을 저장, 시퀀스형</td>
+    <td class="tg-vg0y">int[] arr = { 1, 2, 3 };<br>List<string> list = new List<string>();</td>
+  </tr>
+    <tr>
+    <td class="tg-vg0y">Dictionary<TKey, TValue></td>
+    <td class="tg-vg0y">Key와 Value의 쌍으로 데이터를 저장, 매핑형</td>
+    <td class="tg-vg0y">Dictionary<string, int> dict = new Dictionary<string, int>();</td>
+  </tr>
+    <tr>
     <td class="tg-vg0y">interface, array, delegate</td>
     <td class="tg-vg0y">다른 복합적인 데이터 구조 및 기능을 정의하는 데 사용</td>
     <td class="tg-vg0y">　</td>
@@ -170,23 +179,30 @@ typora-root-url: ../
 </tbody>
 </table>
 
-- 시퀀스형
-  - list
-  - tuple
-- 매핑형
-  - dictionary
-
-
 
 
 ## C. 변수 선언과 값 대입 주요 규칙
-  - 컴퓨터는 코드를 메인이라는 시작점의 중괄호부터 읽기 시작
-  - 변수를 저장할 목적의 공간 확보 코드(변수 선언)가 나오면 요청된 공간만큼 자리 확보
-  - 특정 수를 변수에 대입하라는 코드를 만나면 식별자를 보고 그 공간으로 가서 값 대입
-  - 변수 선언과 동시에 값을 대입(변수 초기화) 가능
+- 컴퓨터는 코드를 메인이라는 시작점의 중괄호부터 읽기 시작
+- 변수를 저장할 목적의 공간 확보 코드(변수 선언)가 나오면 요청된 공간만큼 자리 확보
+- 특정 수를 변수에 대입하라는 코드를 만나면 식별자를 보고 그 공간으로 가서 값 대입
+- 변수 선언과 동시에 값을 대입(변수 초기화) 가능
 
 
 
 ## D. 변수명 규칙
-  - 파스칼 케이스
-  - 카멜 케이스
+- **파스칼 케이스(PascalCase)**
+  - 단어의 첫 글자를 포함해 모든 단어의 첫 글자를 대문자로표기
+  - 사용 예시
+    - 클래스(Class) : public class DamageCalculator
+    - 메서드(Method) : public void CalculateTotalPrice ()
+    - 속성(Property) : public string UserName {get; set;}
+    - 열거형(Enum) : public enum GameLevel {Easy, Normal, Hard}
+    - 네임스페이스(Namespace) : namespace MyApplication.Services
+    - 구조체(Struct) : public struct Point
+
+- **카멜 케이스(camelCase)**
+  - 첫 단어의 첫 글자는 소문자로, 이후 단어의 첫 글자는 대문자로 표기
+  - 사용 예시
+    - 매개 변수(Parameter) : public int HPCalculator (int dmg, int curentHP)
+    - 지역 변수(Local Variable) : int maxRate - 100000;
+    - 전용 필드(Private Field) : privatestring _customerName;

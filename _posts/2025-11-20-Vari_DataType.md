@@ -136,48 +136,47 @@ typora-root-url: ../
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-zdbk{background-color:#003532;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-vg0y{background-color:#34696d;color:#ffffff;text-align:left;vertical-align:top}
+.tg .tg-7vxo{background-color:#34696D;color:#FFF;text-align:left;vertical-align:top}
+.tg .tg-8bs2{background-color:#003532;color:#FFF;font-weight:bold;text-align:center;vertical-align:top}
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-zdbk">자료형       </th>
-    <th class="tg-zdbk">설명</th>
-    <th class="tg-zdbk">예시</th>
+    <th class="tg-8bs2"><span style="font-weight:bold;color:#FFF;background-color:#003532">자료형</span></th>
+    <th class="tg-8bs2"><span style="font-weight:bold;color:#FFF;background-color:#003532">설명</span></th>
+    <th class="tg-8bs2"><span style="font-weight:bold;color:#FFF;background-color:#003532">예시</span></th>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-vg0y">string</td>
-    <td class="tg-vg0y">문자 를 저장, 큰따옴표로 묶음.</td>
-    <td class="tg-vg0y">string   s = "Hello World";</td>
+    <td class="tg-7vxo"><span style="color:#FFF;background-color:#34696D">string</span></td>
+    <td class="tg-7vxo"><span style="color:#FFF;background-color:#34696D">문자 를 저장, 큰따옴표로 묶음.</span></td>
+    <td class="tg-7vxo"><span style="color:#FFF;background-color:#34696D">string s = "Hello World";</span></td>
   </tr>
   <tr>
-    <td class="tg-vg0y">object</td>
-    <td class="tg-vg0y">모든 C# 형식의 부모 클래스로, 모든 데이터를 저장 가능</td>
-    <td class="tg-vg0y">object   o = 10;</td>
+    <td class="tg-7vxo"><span style="color:#FFF;background-color:#34696D">object</span></td>
+    <td class="tg-7vxo"><span style="color:#FFF;background-color:#34696D">모든 C# 형식의 부모 클래스로, 모든 데이터를 저장 가능</span></td>
+    <td class="tg-7vxo"><span style="color:#FFF;background-color:#34696D">object o = 10;</span></td>
   </tr>
   <tr>
-    <td class="tg-vg0y">class</td>
-    <td class="tg-vg0y">사용자 정의 데이터 구조를 만듬</td>
-    <td class="tg-vg0y">MyClass   mc = new MyClass();</td>
+    <td class="tg-7vxo"><span style="color:#FFF;background-color:#34696D">class</span></td>
+    <td class="tg-7vxo"><span style="color:#FFF;background-color:#34696D">사용자 정의 데이터 구조를 만듬</span></td>
+    <td class="tg-7vxo"><span style="color:#FFF;background-color:#34696D">MyClass mc = new MyClass();</span></td>
   </tr>
   <tr>
-    <td class="tg-vg0y">array, List<T></td>
-    <td class="tg-vg0y">순서가 있는 데이터의 집합을 저장, 시퀀스형</td>
-    <td class="tg-vg0y">int[] arr = { 1, 2, 3 };<br>List<string> list = new List<string>();</td>
+    <td class="tg-7vxo"><span style="color:#FFF;background-color:#34696D">array, List</span>&lt;/td&gt;</td>
+    <td class="tg-7vxo"><span style="color:#FFF;background-color:#34696D">순서가 있는 데이터의 집합을 저장, 시퀀스형</span></td>
+    <td class="tg-7vxo"><span style="color:#FFF;background-color:#34696D">int[] arr = { 1, 2, 3 };</span><br><span style="color:#FFF;background-color:#34696D">List</span> list = new List();&lt;/td&gt; &lt;/tr&gt;</td>
   </tr>
-    <tr>
-    <td class="tg-vg0y">Dictionary<TKey, TValue></td>
-    <td class="tg-vg0y">Key와 Value의 쌍으로 데이터를 저장, 매핑형</td>
-    <td class="tg-vg0y">Dictionary<string, int> dict = new Dictionary<string, int>();</td>
+  <tr>
+    <td class="tg-7vxo"><span style="color:#FFF;background-color:#34696D">Dictionary&lt;TKey, TValue&gt;</span></td>
+    <td class="tg-7vxo"><span style="color:#FFF;background-color:#34696D">Key와 Value의 쌍으로 데이터를 저장, 매핑형</span></td>
+    <td class="tg-7vxo"><span style="color:#FFF;background-color:#34696D">Dictionary&lt;string, int&gt; dict = new Dictionary&lt;string, int&gt;();</span></td>
   </tr>
-    <tr>
-    <td class="tg-vg0y">interface, array, delegate</td>
-    <td class="tg-vg0y">다른 복합적인 데이터 구조 및 기능을 정의하는 데 사용</td>
-    <td class="tg-vg0y">　</td>
+  <tr>
+    <td class="tg-7vxo"><span style="color:#FFF;background-color:#34696D">interface, array, delegate</span></td>
+    <td class="tg-7vxo"><span style="color:#FFF;background-color:#34696D">다른 복합적인 데이터 구조 및 기능을 정의하는 데 사용</span></td>
+    <td class="tg-7vxo"><span style="color:#FFF;background-color:#34696D">　</span></td>
   </tr>
-</tbody>
-</table>
+</tbody></table>
 
 
 

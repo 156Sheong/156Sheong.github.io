@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "변수 및 자료형 학습(초반에 만든 포스트라 추가 정리 필요)"
+title:  "변수 및 자료형 학습"
 categories: Programming
 tag: [Programming, TIL, CSharp]
 toc: true

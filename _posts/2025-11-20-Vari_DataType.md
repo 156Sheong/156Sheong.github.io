@@ -192,16 +192,16 @@ typora-root-url: ../
 - **파스칼 케이스(PascalCase)**
   - 단어의 첫 글자를 포함해 모든 단어의 첫 글자를 대문자로표기
   - 사용 예시
-    - 클래스(Class) : public class DamageCalculator
-    - 메서드(Method) : public void CalculateTotalPrice ()
-    - 속성(Property) : public string UserName {get; set;}
-    - 열거형(Enum) : public enum GameLevel {Easy, Normal, Hard}
-    - 네임스페이스(Namespace) : namespace MyApplication.Services
-    - 구조체(Struct) : public struct Point
+    - `클래스(Class)` : public class DamageCalculator
+    - `메서드(Method)` : public void CalculateTotalPrice ()
+    - `속성(Property)` : public string UserName {get; set;}
+    - `열거형(Enum)` : public enum GameLevel {Easy, Normal, Hard}
+    - `네임스페이스(Namespace)` : namespace MyApplication.Services
+    - `구조체(Struct)` : public struct Point
 
 - **카멜 케이스(camelCase)**
   - 첫 단어의 첫 글자는 소문자로, 이후 단어의 첫 글자는 대문자로 표기
   - 사용 예시
-    - 매개 변수(Parameter) : public int HPCalculator (int dmg, int curentHP)
-    - 지역 변수(Local Variable) : int maxRate - 100000;
-    - 전용 필드(Private Field) : privatestring _customerName;
+    - `매개 변수(Parameter)` : public int HPCalculator (int dmg, int curentHP)
+    - `지역 변수(Local Variable)` : int maxRate - 100000;
+    - `전용 필드(Private Field)` : privatestring _customerName;

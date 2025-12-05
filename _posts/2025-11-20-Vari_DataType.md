@@ -42,36 +42,151 @@ typora-root-url: ../
 
 
 ## B. 자료형의 종류와 설명
-- 정수형
-  - int
-  - uint
-  - long
-  - ulong
-- 실수형
-  - float
-  - double
-  - decimal
-- 문자형
-  - char
-  - string
-- 논리형
-  - bool
+
+
+### Ba. 값 형식 (Value Types)
+- 값 형식 자료형의 변수는 데이터를 집적 저장
+- 주로 기본 제공 형식(built-in types)이 속함
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-zdbk{background-color:#003532;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-vg0y{background-color:#34696d;color:#ffffff;text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-zdbk">자료형</th>
+    <th class="tg-zdbk">크기</th>
+    <th class="tg-zdbk">설명</th>
+    <th class="tg-zdbk">예시</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-vg0y">byte</td>
+    <td class="tg-vg0y">1 byte</td>
+    <td class="tg-vg0y">부호 없는 짧은 정수 (0 ~ 255)</td>
+    <td class="tg-vg0y">byte   bt = 200;</td>
+  </tr>
+  <tr>
+    <td class="tg-vg0y">int</td>
+    <td class="tg-vg0y">4   bytes</td>
+    <td class="tg-vg0y">부호 있는   정수 (-21억 ~ 21억)</td>
+    <td class="tg-vg0y">int i   = 100;</td>
+  </tr>
+  <tr>
+    <td class="tg-vg0y">uint</td>
+    <td class="tg-vg0y">4   bytes</td>
+    <td class="tg-vg0y">부호 없는 정수 (0 ~ 42억)</td>
+    <td class="tg-vg0y">uint   i = 1000000;</td>
+  </tr>
+  <tr>
+    <td class="tg-vg0y">long</td>
+    <td class="tg-vg0y">8   bytes</td>
+    <td class="tg-vg0y">부호 있는 긴 정수 (-922경   ~ 922경)</td>
+    <td class="tg-vg0y">long l   = 1234567890123L;</td>
+  </tr>
+  <tr>
+    <td class="tg-vg0y">ulong</td>
+    <td class="tg-vg0y">8   bytes</td>
+    <td class="tg-vg0y">부호 없는 긴 정수 (0 ~ 1844경)</td>
+    <td class="tg-vg0y">long   l = 1234567890123L;</td>
+  </tr>
+  <tr>
+    <td class="tg-vg0y">float</td>
+    <td class="tg-vg0y">4   bytes</td>
+    <td class="tg-vg0y">단정밀도   부동 소수점 수 (소수점 7자리)</td>
+    <td class="tg-vg0y">float   f = 10.2f;</td>
+  </tr>
+  <tr>
+    <td class="tg-vg0y">double</td>
+    <td class="tg-vg0y">8   bytes</td>
+    <td class="tg-vg0y">배정밀도   부동 소수점 수 (소수점 15자리)</td>
+    <td class="tg-vg0y">double   d = 19.99;</td>
+  </tr>
+  <tr>
+    <td class="tg-vg0y">decimal</td>
+    <td class="tg-vg0y">16   bytes</td>
+    <td class="tg-vg0y">금융 계산   등에 사용되는 높은 정밀도의 십진수</td>
+    <td class="tg-vg0y">decimal   money = 12.5m;</td>
+  </tr>
+  <tr>
+    <td class="tg-vg0y">char</td>
+    <td class="tg-vg0y">2   bytes</td>
+    <td class="tg-vg0y">단일 문자   (UTF-16 유니코드 문자)</td>
+    <td class="tg-vg0y">char c   = 'A';</td>
+  </tr>
+  <tr>
+    <td class="tg-vg0y">bool</td>
+    <td class="tg-vg0y">1 byte</td>
+    <td class="tg-vg0y">논리값 (true 또는 false)</td>
+    <td class="tg-vg0y">bool b   = true;</td>
+  </tr>
+</tbody></table>
+
+
+### Bb. 참조 형식 (Reference Types)
+- 참조 형식 자료형의 변수는 실제 데이터가 저장된 메모리 주소(참조)를 저장함
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-zdbk{background-color:#003532;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-vg0y{background-color:#34696d;color:#ffffff;text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-zdbk">자료형       </th>
+    <th class="tg-zdbk">설명</th>
+    <th class="tg-zdbk">예시</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-vg0y">string</td>
+    <td class="tg-vg0y">문자 를 저장, 큰따옴표로 묶음.</td>
+    <td class="tg-vg0y">string   s = "Hello World";</td>
+  </tr>
+  <tr>
+    <td class="tg-vg0y">object</td>
+    <td class="tg-vg0y">모든 C# 형식의 부모 클래스로, 모든 데이터를 저장 가능</td>
+    <td class="tg-vg0y">object   o = 10;</td>
+  </tr>
+  <tr>
+    <td class="tg-vg0y">class</td>
+    <td class="tg-vg0y">사용자 정의 데이터 구조를 만듬</td>
+    <td class="tg-vg0y">MyClass   mc = new MyClass();</td>
+  </tr>
+  <tr>
+    <td class="tg-vg0y">interface, array, delegate</td>
+    <td class="tg-vg0y">다른 복합적인 데이터 구조 및 기능을 정의하는 데 사용</td>
+    <td class="tg-vg0y">　</td>
+  </tr>
+</tbody>
+</table>
+
 - 시퀀스형
   - list
   - tuple
 - 매핑형
   - dictionary
 
-- 변수명 규칙
-  - 파스칼 케이스
-  - 카멜 케이스
 
-- 변수 선언과 값 대입 주요 규칙
+
+
+## C. 변수 선언과 값 대입 주요 규칙
   - 컴퓨터는 코드를 메인이라는 시작점의 중괄호부터 읽기 시작
   - 변수를 저장할 목적의 공간 확보 코드(변수 선언)가 나오면 요청된 공간만큼 자리 확보
   - 특정 수를 변수에 대입하라는 코드를 만나면 식별자를 보고 그 공간으로 가서 값 대입
   - 변수 선언과 동시에 값을 대입(변수 초기화) 가능
 
-- 상수형(constant)
-  - 변수 선언 시, 변수명 앞에 const 를 붙임
-  - 예시 : const int maxHP = 100;
+
+
+## D. 변수명 규칙
+  - 파스칼 케이스
+  - 카멜 케이스

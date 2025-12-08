@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "XR 산업의 이해"
+title:  "XR 산업의 이해(내용 추가 중)"
 categories: Programming
 tag: [Programming, TIL, Work]
 toc: true

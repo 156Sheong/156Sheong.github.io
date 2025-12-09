@@ -12,18 +12,23 @@ typora-root-url: ../
 
 
 # 변수(Variable)와 자료형(Data Type) 학습
-- 학습 목표 : C#에서 활용 가능한 주요 변수와 자료형을 이해하는 것
+- 학습 목표 : C#에서 활용 가능한 주요 변수의 개념과 실제 사용 방법을 이해하는 것
 
 
 
 ## A. 문서 이력
 - 최초 작성일 : 2025-11-20
-- 최종 수정일 : 2025-12-05
+- 최종 수정일 : 2025-12-09
 
 - 작성 툴 : Typora, Visual Studio Code
 
-- 정보 출처 : 경일게임IT아카데미 프로그래밍 4기 - 온보딩 캠프 3일차 강의 내용, [마이크로소프트 C# 기본 제공 형식 문서](https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/builtin-types/built-in-types) 등
+- 정보 출처 : 경일게임IT아카데미 프로그래밍 4기 - 온보딩 캠프 3일차 및 본과정 2일차 강의 내용, [마이크로소프트 C# 기본 제공 형식 문서](https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/builtin-types/built-in-types) 등
 
+
+
+(변수가 필요한 이유 추가 필요)
+(변수 사용법 저장하고자 하는 형태, 저장소 이름, 실제 값 내용 추가 필요)
+(컴퓨터적으로 사고한다면 일단 선언된 변수의 값도 컴파일러를 거쳐서 값 형태로 주소 메모리에 이진수의 형태로 들어감)
 
 
 ## B. 변수와 상수 설명
@@ -36,7 +41,7 @@ typora-root-url: ../
   
 - **상수(constant)**
   - 한 번 할당되면 프로그램 실행 중 절대 변경할 수 없는 값(변경하려고 시도하면 오류 발생)
-  - 변수 선언 시, 변수명 앞에 const 를 붙임
+  - 변수 선언 시, 변수명 앞에 const 를 붙이고, 선언할 때 초기화도 해야함
   - 예시 : const int maxHP = 100;
 
 
@@ -205,3 +210,23 @@ typora-root-url: ../
     - `매개 변수(Parameter)` : public int HPCalculator (int dmg, int curentHP)
     - `지역 변수(Local Variable)` : int maxRate - 100000;
     - `전용 필드(Private Field)` : privatestring _customerName;
+
+
+
+## E. 변수명 짓기 팁
+
+
+
+
+ 
+더 생각해볼만한 것
+Boolean 이 true 와 false 값만 가진다면 C#에서 1bit 의 값이면 될 것 같은데,
+1byte의 값을 가지는 이유가 어떤 것이 있을까요?
+int처럼 맨 앞의 비트가 음수인지 양수인지 나타내는 부호가 필요한 것도 아닐 것 같은데, 
+1byte의 크기가 필요한 이유가 무엇일지 궁금합니다. 
+-> 컴퓨터는 바이트 단위를 사용하는데 혼자 비트 단위를 사용하면 오히려 비효율적이기 때문
+
+
+
+자리표시자와 문자열 보간이 내부적으로는 메모리나 연산 속도 등의 차이가 있을까요??
+-> 버젼마다의 차이가 있는데 C# 10.0 이후에는 문자열 보간이 더 빠름, 그러나 거의 차이가 없음

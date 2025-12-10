@@ -93,7 +93,7 @@ typora-root-url: ../
 
 
 ## D. 주요 조건문의 형태
-- if / else if / else 문
+- if - else if - else 문
   - 사용 예시
   
   ```csharp
@@ -130,7 +130,7 @@ typora-root-url: ../
   }
   ```
 
-- switch / case 문
+- switch - case 문
   - 사용 예시
   
   ```csharp
@@ -171,4 +171,4 @@ typora-root-url: ../
         break;
     }
   }
-  ```
+```

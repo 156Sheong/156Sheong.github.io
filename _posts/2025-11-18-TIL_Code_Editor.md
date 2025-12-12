@@ -127,31 +127,31 @@ typora-root-url: ../
 <tbody>
   <tr>
     <td class="tg-2g1l">Visual Studio</td>
-    <td class="tg-f4yw">마이크로소프트의&nbsp;&nbsp;&nbsp;강력한 IDE</td>
-    <td class="tg-f4yw">디버깅,&nbsp;&nbsp;&nbsp;테스팅, UI 디자인 도구, 데이터베이스 관리 등 개발에 필요한 모든 기능 제공,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;강력한 윈도우 생태계에 통합되어 Azur, .NET 프레임워크와의 연동 뛰어남,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;다양한 코딩 도구 제공,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;다양한 언어 지원</td>
-    <td class="tg-f4yw">높은&nbsp;&nbsp;&nbsp;리소스 사용,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;윈도우 중심이라 맥OS용 버전은 일부 기능이 제한될 수 있음</td>
-    <td class="tg-f4yw">.NET/C#&nbsp;&nbsp;&nbsp;개발자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;대규모 엔터프라이즈 프로젝트 개발자</td>
+    <td class="tg-f4yw">마이크로소프트의 강력한 IDE</td>
+    <td class="tg-f4yw">디버깅, 테스팅, UI 디자인 도구, 데이터베이스 관리 등 개발에 필요한 모든 기능 제공,<br>강력한 윈도우 생태계에 통합되어 Azur, .NET 프레임워크와의 연동 뛰어남,<br>다양한 코딩 도구 제공,<br>다양한 언어 지원</td>
+    <td class="tg-f4yw">높은 리소스 사용,<br>윈도우 중심이라 맥OS용 버전은 일부 기능이 제한될 수 있음</td>
+    <td class="tg-f4yw">.NET/C#개발자,<br>대규모 엔터프라이즈 프로젝트 개발자</td>
   </tr>
   <tr>
     <td class="tg-2g1l">JetBrains Rider</td>
-    <td class="tg-f4yw">JetBrains의&nbsp;&nbsp;&nbsp;크로스 플랫폼 .NET IDE</td>
-    <td class="tg-f4yw">대용량&nbsp;&nbsp;&nbsp;파일 처리 속도가 빠름,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;강력한 코드 분석 및 리펙토링,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;크로스 플랫폼 지원,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;유니티 및 언리얼 엔진 지원</td>
-    <td class="tg-f4yw">유료&nbsp;&nbsp;&nbsp;소프트웨어,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;상대적으로 높은 메모리 사용량</td>
-    <td class="tg-f4yw">.NET/Unity&nbsp;&nbsp;&nbsp;개발자,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;크로스 플랫폼 환경의 개발자</td>
+    <td class="tg-f4yw">JetBrains의 크로스 플랫폼 .NET IDE</td>
+    <td class="tg-f4yw">대용량 파일 처리 속도가 빠름,<br>강력한 코드 분석 및 리펙토링,<br>크로스 플랫폼 지원,<br>유니티 및 언리얼 엔진 지원</td>
+    <td class="tg-f4yw">유료 소프트웨어,<br>상대적으로 높은 메모리 사용량</td>
+    <td class="tg-f4yw">.NET/Unity 개발자,<br>크로스 플랫폼 환경의 개발자</td>
   </tr>
   <tr>
     <td class="tg-2g1l">Android Studio</td>
-    <td class="tg-f4yw">Google에서&nbsp;&nbsp;&nbsp;제공하는 안드로이드 앱 개발 공식 IDE.</td>
-    <td class="tg-f4yw">안드로이드&nbsp;&nbsp;&nbsp;개발에 최적화,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gradle 빌드 시스템 지원하여 복잡한 프로젝트 효율적으로 관리</td>
-    <td class="tg-f4yw">안드로이드&nbsp;&nbsp;&nbsp;플랫폼 종속</td>
-    <td class="tg-f4yw">안드로이드&nbsp;&nbsp;&nbsp;개발자</td>
+    <td class="tg-f4yw">Google에서 제공하는 안드로이드 앱 개발 공식 IDE.</td>
+    <td class="tg-f4yw">안드로이드 개발에 최적화,<br>Gradle 빌드 시스템 지원하여 복잡한 프로젝트 효율적으로 관리</td>
+    <td class="tg-f4yw">안드로이드 플랫폼 종속</td>
+    <td class="tg-f4yw">안드로이드 개발자</td>
   </tr>
   <tr>
     <td class="tg-2g1l">Eclipse</td>
-    <td class="tg-f4yw">자바&nbsp;&nbsp;&nbsp;기반의 오픈 소스 IDE</td>
-    <td class="tg-f4yw">광범위한&nbsp;&nbsp;&nbsp;플러그인 확장성,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;오랜 역사와 커뮤니티를 통한 풍부한 자료</td>
-    <td class="tg-f4yw">느린&nbsp;&nbsp;&nbsp;성능,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;플러그인 간의 충돌 가능성 있음,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;투박한 인터페이스</td>
-    <td class="tg-f4yw">JAVA&nbsp;&nbsp;&nbsp;개발자</td>
+    <td class="tg-f4yw">자바 기반의 오픈 소스 IDE</td>
+    <td class="tg-f4yw">광범위한 플러그인 확장성,<br>오랜 역사와 커뮤니티를 통한 풍부한 자료</td>
+    <td class="tg-f4yw">느린 성능,<br>플러그인 간의 충돌 가능성 있음,<br>투박한 인터페이스</td>
+    <td class="tg-f4yw">JAVA 개발자</td>
   </tr>
 </tbody></table>
 

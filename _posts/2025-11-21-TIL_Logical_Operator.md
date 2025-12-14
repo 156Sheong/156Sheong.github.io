@@ -171,4 +171,44 @@ typora-root-url: ../
         break;
     }
   }
-```
+  ```
+
+- switch - case 문과 비교한 switch 패턴 식 사용 예시
+  - switch 문 사용 예시
+    ```csharp
+    string attackTypeName;
+    switch (type)
+    {
+        case AttackType.Normal:
+            attackTypeName = "일반 공격";
+            break;
+        case AttackType.Slash:
+            attackTypeName = "베기 공격";
+            break;
+        case AttackType.Pierce:
+            attackTypeName = "관통 공격";
+            break;
+        case AttackType.Blunt: 
+            attackTypeName = "타격 공격";
+            break;
+        case AttackType.Impact: 
+            attackTypeName = "충격 공격";
+            break;
+        default // 발생할 일이 없어야 함
+            attackTypeName = "버그성 공격";
+            break;
+    }
+    ```
+  
+  - switch 패턴 일치 식 사용 예시
+    ```csharp
+    string attackTypeName = type switch
+    {
+        AttackType.Normal => "일반 공격",
+        AttackType.Slash => "베기 공격",
+        AttackType.Pierce => "관통 공격",
+        AttackType.Blunt => "타격 공격",
+        AttackType.Impact => "충격 공격",
+        _ => "버그성 공격" // 발생할 일이 없어야 함
+    }
+    ```

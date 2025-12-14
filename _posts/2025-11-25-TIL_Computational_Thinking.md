@@ -12,7 +12,7 @@ typora-root-url: ../
 
 
 # 컴퓨팅 사고(Computational thinking)에 대하여
-- 학습 목표 : C#에서 활용 가능한 논리 연산자와 조건문 학습
+- 학습 목표 : 컴퓨터적 사고를 이해하고 익히는 것
 
 
 

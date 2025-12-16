@@ -210,5 +210,5 @@ typora-root-url: ../
         AttackType.Blunt => "타격 공격",
         AttackType.Impact => "충격 공격",
         _ => "버그성 공격" // 발생할 일이 없어야 함
-    }
+    };
     ```

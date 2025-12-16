@@ -1,4 +1,4 @@
-.---
+---
 layout: single
 title:  "구조체 학습"
 categories: Programming
@@ -77,3 +77,30 @@ struct
 중첩 구조체
 
 멤버 변수
+
+
+
+class Warrior // 이건 클레스이지만, 구조체도 비슷하게 작동
+{
+    public string Name; // 이름
+    public int Hp;      // 체력
+}
+
+생성자가 없을 시
+Warrior myCharacter = new Warrior(); // 구조체의 변수 값 할당 없이 전사 캐릭터 생성 ()
+
+myCharacter.Name = "전사"; 
+myCharacter.Hp = 100;
+이렇게 따로 값 입력해야, 까먹으면 안 됨
+
+생성자가 있을 시
+Warrior myCharacter = new Warrior("전사", 100); // 구조체의 변수 값 할당을 강제로 해야하고, 안 넣으면 에러를 발생시킴
+
+까먹으면 쉽게 확인 가능
+
+
+비유가 이렇네요
+
+생성자: 붕어빵을 굽는 초기 설정 단계.
+
+"팥을 안 넣으면 붕어빵을 아예 안 만들어줌"으로써, 팥 없는 붕어빵(불량품)이 세상에 나오는 것을 원천 봉쇄하는 문지기 역할을 합니다.

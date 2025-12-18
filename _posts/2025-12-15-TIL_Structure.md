@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "구조체 학습"
+title:  "구조체 학습(정리 필요)"
 categories: Programming
 tag: [Programming, TIL, CSharp]
 toc: true

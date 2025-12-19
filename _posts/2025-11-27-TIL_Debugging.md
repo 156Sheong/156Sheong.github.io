@@ -58,63 +58,68 @@ typora-root-url: ../
 
 ### Bd. 비주얼 스튜디오의 디버깅 관련 단축키
 <style type="text/css">
-.tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
-.tg td{background-color:#fdf6e3;border-color:#93a1a1;border-style:solid;border-width:1px;color:#002b36;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#657b83;border-color:#93a1a1;border-style:solid;border-width:1px;color:#fdf6e3;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-sutj{background-color:#1f5059;border-color:inherit;color:#ffffff;text-align:center;vertical-align:middle}
-.tg .tg-wf0n{background-color:#1f5059;border-color:inherit;color:#ffffff;text-align:left;vertical-align:top}
-.tg .tg-udfd{background-color:#2f414a;border-color:inherit;color:#ffffff;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-mr47{background-color:#1f5059;border-color:inherit;color:#ffffff;text-align:left;vertical-align:middle}
-.tg .tg-0paf{background-color:#1f5059;border-color:inherit;color:#ffffff;text-align:center;vertical-align:top}
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0oxx{background-color:#2F414A;color:#FFF;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-1deo{background-color:#1F5059;color:#FFF;text-align:center;vertical-align:top}
+.tg .tg-xo8e{background-color:#1F5059;color:#FFF;text-align:left;vertical-align:top}
+.tg .tg-yge8{background-color:#1F5059;color:#FFF;text-align:center;vertical-align:middle}
+.tg .tg-j95a{background-color:#1F5059;color:#FFF;text-align:left;vertical-align:middle}
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-udfd">단축키</th>
-    <th class="tg-udfd">설명</th>
-    <th class="tg-udfd">기능 상세</th>
+    <th class="tg-0oxx"><span style="font-weight:bold;color:#FFF;background-color:#2F414A">단축키</span></th>
+    <th class="tg-0oxx"><span style="font-weight:bold;color:#FFF;background-color:#2F414A">설명</span></th>
+    <th class="tg-0oxx"><span style="font-weight:bold;color:#FFF;background-color:#2F414A">기능 상세</span></th>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-sutj">F5</td>
-    <td class="tg-sutj">디버깅 시작</td>
-    <td class="tg-mr47">디버거와 함께 프로그램 실행 시작, 다음 중단점까지 실행</td>
+    <td class="tg-yge8"><span style="color:#FFF;background-color:#1F5059">F5</span></td>
+    <td class="tg-yge8"><span style="color:#FFF;background-color:#1F5059">디버깅 시작</span></td>
+    <td class="tg-j95a"><span style="color:#FFF;background-color:#1F5059">디버거와 함께 프로그램 실행 시작, 다음 중단점까지 실행</span></td>
   </tr>
   <tr>
-    <td class="tg-sutj">Shift + F5</td>
-    <td class="tg-sutj">디버깅 중지</td>
-    <td class="tg-mr47">현재 디버깅 세션을 종료</td>
+    <td class="tg-yge8"><span style="color:#FFF;background-color:#1F5059">Shift + F5</span></td>
+    <td class="tg-yge8"><span style="color:#FFF;background-color:#1F5059">디버깅 중지</span></td>
+    <td class="tg-j95a"><span style="color:#FFF;background-color:#1F5059">현재 디버깅 세션을 종료</span></td>
   </tr>
   <tr>
-    <td class="tg-sutj">F9</td>
-    <td class="tg-sutj">중단점 설정 /해제</td>
-    <td class="tg-mr47">현재 커서가 있는 줄에 중단점을 설정하거나 해제</td>
+    <td class="tg-yge8"><span style="color:#FFF;background-color:#1F5059">F9</span></td>
+    <td class="tg-yge8"><span style="color:#FFF;background-color:#1F5059">중단점 설정 / 해제</span></td>
+    <td class="tg-j95a"><span style="color:#FFF;background-color:#1F5059">현재 커서가 있는 줄에 중단점을 설정하거나 해제</span></td>
   </tr>
   <tr>
-    <td class="tg-sutj">F10</td>
-    <td class="tg-sutj">한 단계 프로시저 단위 실행</td>
-    <td class="tg-mr47">현재 줄을 실행하고 다음 줄로 이동. 함수 내부로 들어가지 않고(Step Over), 함수 전체 실행 후 다음 줄로 이동</td>
+    <td class="tg-1deo">ctrl + shift + F9</td>
+    <td class="tg-1deo"><span style="color:#FFF;background-color:#1F5059">모든 중단점 해제</span></td>
+    <td class="tg-xo8e"><span style="color:#FFF;background-color:#1F5059">현재 설정된 모든 중단점 해제</span></td>
   </tr>
   <tr>
-    <td class="tg-sutj">F11</td>
-    <td class="tg-sutj">한 단계씩 코드 실행</td>
-    <td class="tg-mr47">현재 줄을 실행하고 다음 줄로 이동. 함수 내부로 진입(Step Into)하여 자세히 디버깅</td>
+    <td class="tg-yge8"><span style="color:#FFF;background-color:#1F5059">F10</span></td>
+    <td class="tg-yge8"><span style="color:#FFF;background-color:#1F5059">한 단계 프로시저 단위 실행</span></td>
+    <td class="tg-j95a"><span style="color:#FFF;background-color:#1F5059">현재 줄을 실행하고 다음 줄로 이동. 함수 내부로 들어가지 않고(Step Over), 함수 전체 실행 후 다음 줄로 이동</span></td>
   </tr>
   <tr>
-    <td class="tg-sutj">Shift + F11</td>
-    <td class="tg-sutj">한 단계 프로시저 나가기</td>
-    <td class="tg-mr47">현재 함수 실행을 완료하고 해당 함수를 호출한 위치로 돌아감(Step Out)</td>
+    <td class="tg-yge8"><span style="color:#FFF;background-color:#1F5059">F11</span></td>
+    <td class="tg-yge8"><span style="color:#FFF;background-color:#1F5059">한 단계씩 코드 실행</span></td>
+    <td class="tg-j95a"><span style="color:#FFF;background-color:#1F5059">현재 줄을 실행하고 다음 줄로 이동. 함수 내부로 진입(Step Into)하여 자세히 디버깅</span></td>
   </tr>
   <tr>
-    <td class="tg-0paf">Ctrl + F10</td>
-    <td class="tg-0paf">커서까지 실행</td>
-    <td class="tg-wf0n">커서가 위치한 곳까지 프로그램 실행을 계속</td>
+    <td class="tg-yge8"><span style="color:#FFF;background-color:#1F5059">Shift + F11</span></td>
+    <td class="tg-yge8"><span style="color:#FFF;background-color:#1F5059">한 단계 프로시저 나가기</span></td>
+    <td class="tg-j95a"><span style="color:#FFF;background-color:#1F5059">현재 함수 실행을 완료하고 해당 함수를 호출한 위치로 돌아감(Step Out)</span></td>
   </tr>
   <tr>
-    <td class="tg-0paf">F1</td>
-    <td class="tg-0paf">도움말</td>
-    <td class="tg-wf0n">특정 키워드나 메뉴에 대한 도움말 확인</td>
+    <td class="tg-1deo"><span style="color:#FFF;background-color:#1F5059">Ctrl + F10</span></td>
+    <td class="tg-1deo"><span style="color:#FFF;background-color:#1F5059">커서까지 실행</span></td>
+    <td class="tg-xo8e"><span style="color:#FFF;background-color:#1F5059">커서가 위치한 곳까지 프로그램 실행을 계속</span></td>
+  </tr>
+  <tr>
+    <td class="tg-1deo"><span style="color:#FFF;background-color:#1F5059">F1</span></td>
+    <td class="tg-1deo"><span style="color:#FFF;background-color:#1F5059">도움말</span></td>
+    <td class="tg-xo8e"><span style="color:#FFF;background-color:#1F5059">특정 키워드나 메뉴에 대한 도움말 확인</span></td>
   </tr>
 </tbody></table>
 

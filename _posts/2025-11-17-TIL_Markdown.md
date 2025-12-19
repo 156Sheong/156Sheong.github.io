@@ -182,17 +182,15 @@ class Program
 
 ## H. 이미지
 1. 이미지 복사 방법
-
-![coding](/images/2025-11-17-Markdown/coding.gif)
-- 복사됐던 이미지를 실제로 문서와 같은 경로에 생성하면서 삽입해줌
-- 로컬 이미지는 절대 경로를 참조해야 함
-- 마크다운 문서 하나 당, 개별적인 폴더로 관리되는 것이 편함
+  ![coding](/images/2025-11-17-Markdown/coding.gif)
+   - 복사됐던 이미지를 실제로 문서와 같은 경로에 생성하면서 삽입해줌
+   - 로컬 이미지는 절대 경로를 참조해야 함
+   - 마크다운 문서 하나 당, 개별적인 폴더로 관리되는 것이 편함
 
 
 2. 이미지 링크 복사 방법
-
-![alt text](https://item.kakaocdn.net/do/1c05dd5fac27fd8c5fe6f2c1708b88aff43ad912ad8dd55b04db6a64cddaf76d)
- - 그러나 이미지 주소를 복사하는 것은, 이미지 주소가 변경되거나 삭제되었을 때 이미지에 문제가 생길 수 있어서 장기적으로 좋지는 않을 것 같음
+  ![alt text](https://item.kakaocdn.net/do/1c05dd5fac27fd8c5fe6f2c1708b88aff43ad912ad8dd55b04db6a64cddaf76d)
+    - 그러나 이미지 주소를 복사하는 것은, 이미지 주소가 변경되거나 삭제되었을 때 이미지에 문제가 생길 수 있어서 장기적으로 좋지는 않을 것 같음
 
 
 ## I. 표

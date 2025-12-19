@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "게임 프로그래밍 직군의 이해(내용 추가 중)"
+title:  "게임 프로그래밍 직군의 이해"
 categories: Programming
 tag: [Programming, TIL, Work]
 toc: true

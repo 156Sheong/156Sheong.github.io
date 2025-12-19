@@ -248,6 +248,7 @@ typora-root-url: ../
 ## E. 연산 시 주의사항
 - C#, Java 등 컴퓨터 언어는 정확히 소수점을 표현할 수 없어서 실수형의 소수점 연산 시에 오차가 존재함, 부동소수점의 이진수를 십진수로 제대로 표현하기 어렵기 때문
   - flaot(4바이트) 보다 정밀한 계산이 필요하면 decimal(C#에서 16바이트 십진법), double(8바이트 이진법) 등을 추천
+  - [CS 기초 학습 - 2 포스트](https://156sheong.github.io/programming/TIL_CS_Basic02/) 참고
 
 
 

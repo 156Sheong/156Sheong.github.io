@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "변수 및 자료형 학습 (추가 내용 추가 필요)"
+title:  "변수 및 자료형 학습"
 categories: Programming
 tag: [Programming, TIL, CSharp]
 toc: true
@@ -18,7 +18,7 @@ typora-root-url: ../
 
 ## A. 문서 이력
 - 최초 작성일 : 2025-11-20
-- 최종 수정일 : 2025-12-09
+- 최종 수정일 : 2025-12-22
 
 - 작성 툴 : Typora, Visual Studio Code
 

@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "C#의 기초 이해 학습(내용 추가 중)"
+title:  "C#의 기초 이해 학습"
 categories: Programming
 tag: [Programming, TIL, Work]
 toc: true
@@ -20,7 +20,7 @@ typora-root-url: ../
 
 ## A. 문서 이력
 - 최초 작성일 : 2025-12-09
-- 최종 수정일 : 2025-12-12
+- 최종 수정일 : 2025-12-22
 
 - 작성 툴 : Typora, Visual Studio Code
 

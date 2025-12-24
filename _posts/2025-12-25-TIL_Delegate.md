@@ -11,7 +11,7 @@ typora-root-url: ../
 
 
 
-# 델리게이트(Delegate)  학습
+# 델리게이트(Delegate) 학습
 - 학습 목표
   - 
 

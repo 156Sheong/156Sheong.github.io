@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "델리게이트 학습"
+title:  "상속 학습"
 categories: Programming
 tag: [Programming, TIL, CSharp]
 toc: true
@@ -11,7 +11,7 @@ typora-root-url: ../
 
 
 
-# 델리게이트(Delegate)  학습
+# 상속(Inheritance) 학습
 - 학습 목표
   - 
 
@@ -25,8 +25,8 @@ typora-root-url: ../
 
 - 작성 툴 : Typora, Visual Studio Code
 
-- 정보 출처 : 경일게임IT아카데미 프로그래밍 4기 - 본과정 13일차 강의 내용,  등
+- 정보 출처 : 경일게임IT아카데미 프로그래밍 4기 - 본과정 12일차 강의 내용,  등
 
 
 
-## B. 델리게이트 란?
+## B. 상속 이란?

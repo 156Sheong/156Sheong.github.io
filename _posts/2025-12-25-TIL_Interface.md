@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "델리게이트 학습"
+title:  "인터페이스 학습"
 categories: Programming
 tag: [Programming, TIL, CSharp]
 toc: true
@@ -11,7 +11,7 @@ typora-root-url: ../
 
 
 
-# 델리게이트(Delegate)  학습
+# 인터페이스(Interface) 학습
 - 학습 목표
   - 
 
@@ -29,4 +29,4 @@ typora-root-url: ../
 
 
 
-## B. 델리게이트 란?
+## B. 인터페이스 란?

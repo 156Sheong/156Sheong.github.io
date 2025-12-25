@@ -1,8 +1,8 @@
 ---
 layout: single
-title:  "자기소개서 준비 방법"
-categories: Programming
-tag: [Programming, TIL, Writing]
+title:  "프로그래머의 자기소개서 준비 방법"
+categories: Industry
+tag: [Industry, Writing, TIL]
 toc: true
 sidebar:
     nav: "counts"
@@ -11,7 +11,7 @@ typora-root-url: ../
 
 
 
-# 자기소개서 준비 방법
+# 프로그래머의 자기소개서 준비 방법
 - 학습 목표
   - 취업용 자기소개서 작성의 준비 방법을 파악할 수 있음
   - 개발자를 꿈꾸게 된 `계기`와 `동기`를 명확히 정리할 수 있음

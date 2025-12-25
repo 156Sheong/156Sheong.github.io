@@ -15,8 +15,8 @@ main:
     url: /categories/
   - title: "Tag"
     url: /tags/
-  - title: "Posts by Year"
-    url: /year-archive/
+  # - title: "Posts by Year"
+  #  url: /year-archive/
 
 
 counts:

@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "델리게이트 학습"
-categories: Programming
+categories: TIL
 tag: [Programming, TIL, CSharp]
 toc: true
 sidebar:

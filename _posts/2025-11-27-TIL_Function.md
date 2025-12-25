@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "함수 학습 (심화 과정 수정 필요)"
-categories: Programming
+categories: TIL
 tag: [Programming, TIL, CSharp]
 toc: true
 sidebar:

@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "다이어그램 학습"
-categories: Programming
+categories: TIL
 tag: [Programming, Markdown, TIL]
 toc: true
 sidebar:

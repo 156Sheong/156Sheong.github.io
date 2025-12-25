@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "인터페이스 학습"
-categories: Programming
+categories: TIL
 tag: [Programming, TIL, CSharp]
 toc: true
 sidebar:

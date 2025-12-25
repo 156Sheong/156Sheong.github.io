@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "스탠포드 카렐 학습"
-categories: Programming
+categories: TIL
 tag: [Programming, TIL, Stanford_Karel]
 toc: true
 sidebar:

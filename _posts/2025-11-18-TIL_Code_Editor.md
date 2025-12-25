@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "소스 코드 편집기와 IDE 학습"
-categories: Programming
+categories: TIL
 tag: [Programming, TIL]
 toc: true
 sidebar:

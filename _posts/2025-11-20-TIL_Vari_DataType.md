@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "변수 및 자료형 학습"
-categories: Programming
+categories: TIL
 tag: [Programming, TIL, CSharp]
 toc: true
 sidebar:

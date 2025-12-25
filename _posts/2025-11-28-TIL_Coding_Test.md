@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "코딩 테스트 입문"
-categories: Programming
+categories: TIL
 tag: [Programming, TIL, CSharp]
 toc: true
 sidebar:

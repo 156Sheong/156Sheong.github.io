@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "구조체 학습(정리 필요)"
-categories: Programming
+categories: TIL
 tag: [Programming, TIL, CSharp]
 toc: true
 sidebar:

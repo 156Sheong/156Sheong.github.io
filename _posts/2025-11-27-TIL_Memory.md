@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "메모리 기초 학습 (추후에 추가 예정)"
-categories: Programming
+categories: TIL
 tag: [Programming, TIL, CSharp]
 toc: true
 sidebar:

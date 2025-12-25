@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "추상 클래스 학습"
-categories: Programming
+categories: TIL
 tag: [Programming, TIL, CSharp]
 toc: true
 sidebar:
@@ -15,7 +15,7 @@ typora-root-url: ../
 - 학습 목표
   - 
 
-- 주요 개념
+- 주요 키워드
   -  
 
 

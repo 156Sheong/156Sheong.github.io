@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "마크다운 문법 학습"
-categories: Programming
+categories: TIL
 tag: [Programming, Markdown, TIL]
 toc: true  
 sidebar:

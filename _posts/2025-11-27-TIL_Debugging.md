@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "디버깅 및 유니티 프로파일러 기초 학습"
-categories: Programming
+categories: TIL
 tag: [Programming, TIL, CSharp]
 toc: true
 sidebar:

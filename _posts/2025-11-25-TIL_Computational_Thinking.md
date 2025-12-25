@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "컴퓨팅 사고에 대하여"
-categories: Programming
+categories: TIL
 tag: [Programming, TIL]
 toc: true
 sidebar:

@@ -2,7 +2,7 @@
 layout: single
 title:  "게임 프로그래밍 직군의 이해"
 categories: Programming
-tag: [Programming, TIL, Work]
+tag: [Programming, TIL, Industry]
 toc: true
 sidebar:
     nav: "counts"

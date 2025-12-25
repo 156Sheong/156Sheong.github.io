@@ -18,7 +18,7 @@ typora-root-url: ../
 - 에세이 작성일 : 2025-12-01
 - 최종 수정일 : 2025-12-02
 
-- 작성 툴 : MS Excel
+- 작성 툴 : Visual Studio Code
 
 
 

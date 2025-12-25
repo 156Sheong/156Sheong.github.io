@@ -2,7 +2,7 @@
 layout: single
 title:  "XR 산업의 이해"
 categories: Programming
-tag: [Programming, TIL, Work]
+tag: [Programming, TIL, Industry]
 toc: true
 sidebar:
     nav: "counts"

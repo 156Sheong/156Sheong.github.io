@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "C#의 기초 이해 학습"
-categories: Programming
+categories: TIL
 tag: [Programming, TIL, Csharp]
 toc: true
 sidebar:

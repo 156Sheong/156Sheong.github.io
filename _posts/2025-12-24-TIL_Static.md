@@ -169,36 +169,36 @@ typora-root-url: ../
   - 인스턴스 생성 시 **Static 생성자가 먼저 생성**되고, Public 생성자는 나중에 생성 됨
   - 인스턴스를 할당하지 않을 시(`new` 사용 X) 값, 함수에 접근하면 Static 생성자와 값, 함수만 호출 됨
     - 유의사항 관련 예시
-    ```csharp
-      // Public 생성자와 Static 생성자를 비교하기 위한 클래스
-      public class StaticStudy2
-      {
-          public static int staticValue = 15;
+    - ```csharp
+        // Public 생성자와 Static 생성자를 비교하기 위한 클래스
+        public class StaticStudy2
+        {
+            public static int staticValue = 15;
 
-          // 한 클래스는 public 생성자와 static 생성자를 각자 만들 수도 있음
-          public StaticStudy2() { Console.WriteLine("Public 생성자"); }  // public 생성자
-          static StaticStudy2() { Console.WriteLine("static 생성자"); }  // static 생성자
-      }
+            // 한 클래스는 public 생성자와 static 생성자를 각자 만들 수도 있음
+            public StaticStudy2() { Console.WriteLine("Public 생성자"); }  // public 생성자
+            static StaticStudy2() { Console.WriteLine("static 생성자"); }  // static 생성자
+        }
 
-      // 기능이 작동할 클래스 1
-      internal class Tester2
-      {
-          private StaticStudy2 _class01;
+        // 기능이 작동할 클래스 1
+        internal class Tester2
+        {
+            private StaticStudy2 _class01;
 
-          public void Run2()
-          {
-              _class01 = new StaticStudy2();  // static 생성자가 먼저 출력되고, public 생성자가 나중에 출력됨
-          }
-      }
+            public void Run2()
+            {
+                _class01 = new StaticStudy2();  // static 생성자가 먼저 출력되고, public 생성자가 나중에 출력됨
+            }
+        }
 
-      // 기능이 작동할 클래스 2
-      internal class Tester3
-      {
-          private StaticStudy2 _class01;
+        // 기능이 작동할 클래스 2
+        internal class Tester3
+        {
+            private StaticStudy2 _class01;
 
-          public void Run3()
-          {
-              Console.WriteLine(StaticStudy2.staticValue);    // new를 통한 객체 할당이 없이 클래스의 값이나 함수에 접근할 시, static 생성자와 staticValue 값만 출력됨
-          }
-      }
-    ```
+            public void Run3()
+            {
+                Console.WriteLine(StaticStudy2.staticValue);    // new를 통한 객체 할당이 없이 클래스의 값이나 함수에 접근할 시, static 생성자와 staticValue 값만 출력됨
+            }
+        }
+      ```

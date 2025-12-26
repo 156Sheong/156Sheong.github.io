@@ -123,43 +123,43 @@ typora-root-url: ../
 - 정적 클래스는 인스턴스를 생성할 수 없음 (`new` 키워드로 객체 생성 불가)
 - 정적 키워드 내에선 인스턴스 멤버에 직접 접근할 수 없어서 다른 방법 필요 (반대로 인스턴스는 정적 멤버를 참조 가능)
   - 정적 메서드에서 인스턴스 멤버 활용 방법 예시
-  ```csharp
-  // 정적 메서드로 인스턴스 멤버 사용 방법 1
-  public class ExmClass1
-  {
-      // int 형 인스턴스 변수
-      public int InstNumber1 = 10;
+    ```csharp
+    // 정적 메서드로 인스턴스 멤버 사용 방법 1
+    public class ExmClass1
+    {
+        // int 형 인스턴스 변수
+        public int InstNumber1 = 10;
 
-      // 정적 메서드에서 매개변수로 인스턴스를 받아 출력
-      public static void StaticFunc1(ExmClass1 class)
-      {
-          Console.WriteLine(class.InstNumber1); // int 형 인스턴스 변수
-      }
-  }
+        // 정적 메서드에서 매개변수로 인스턴스를 받아 출력
+        public static void StaticFunc1(ExmClass1 class)
+        {
+            Console.WriteLine(class.InstNumber1); // int 형 인스턴스 변수
+        }
+    }
 
-  // 메인 함수 내
-  ExmClass1 instClass1 = new ExmClass1();
-  ExmClass1.StaticFunc1(instClass1); // 출력: 10
-  ```
+    // 메인 함수 내
+    ExmClass1 instClass1 = new ExmClass1();
+    ExmClass1.StaticFunc1(instClass1); // 출력: 10
+    ```
 
-  ```csharp
-  // 정적 메서드로 인스턴스 멤버 사용 방법 2
-  public class ExmClass2
-  {
-      public int InstNumber2 = 20;
+    ```csharp
+    // 정적 메서드로 인스턴스 멤버 사용 방법 2
+    public class ExmClass2
+    {
+        public int InstNumber2 = 20;
 
-      // 정적 메서드 내에서 새 인스턴스를 생성한 뒤 출력
-      public static void StaticFunc2()
-      {
-          
-          ExmClass2 instClass2 = new ExmClass2(); 
-          Console.WriteLine(instClass2.InstNumber2); // int 형 인스턴스 변수
-      }
-  }
+        // 정적 메서드 내에서 새 인스턴스를 생성한 뒤 출력
+        public static void StaticFunc2()
+        {
+            
+            ExmClass2 instClass2 = new ExmClass2(); 
+            Console.WriteLine(instClass2.InstNumber2); // int 형 인스턴스 변수
+        }
+    }
 
-  // 메인 함수 내
-  ExmClass2.StaticFunc2(); // 출력: 20 
-  ```
+    // 메인 함수 내
+    ExmClass2.StaticFunc2(); // 출력: 20 
+    ```
 
 - Static 생성자와 Public 생성자가 동시에 있을 때 유의사항
   - 해당 클래스에 접근하지 않는 경우, Static 생성자도 호출 안 됨

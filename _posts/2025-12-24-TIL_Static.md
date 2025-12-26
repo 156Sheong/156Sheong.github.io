@@ -169,7 +169,7 @@ typora-root-url: ../
   - 인스턴스 생성 시 **Static 생성자가 먼저 생성**되고, Public 생성자는 나중에 생성 됨
   - 인스턴스를 할당하지 않을 시(`new` 사용 X) 값, 함수에 접근하면 Static 생성자와 값, 함수만 호출 됨
     - 유의사항 관련 예시
-    - ```csharp
+      ```csharp
         // Public 생성자와 Static 생성자를 비교하기 위한 클래스
         public class StaticStudy2
         {

@@ -1,3 +1,43 @@
+---
+layout: single
+title:  "자료구조 개념 학습"
+categories: TIL
+tag: [Programming, TIL, CSharp]
+toc: true
+sidebar:
+    nav: "counts"
+typora-root-url: ../
+---
+
+
+
+# 자료구조 개념 학습
+- 학습 목표
+  - 
+
+- 주요 키워드
+  - 
+
+
+## A. 문서 이력
+- 최초 작성일 : 2025-12-29
+- 최종 수정일 : 2025-12-29
+
+- 작성 툴 : Typora, Visual Studio Code
+
+- 정보 출처 : 경일게임IT아카데미 프로그래밍 4기 - 본과정 16일차 강의 내용,   등
+
+
+
+## B. 자료구조 란?
+
+
+
+
+
+
+
+
 자료구조 개념
 
 데이터를 조직화 하는 개념

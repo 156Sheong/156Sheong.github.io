@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "델리게이트 학습"
+title:  "델리게이트와 이벤트 학습"
 categories: TIL
 tag: [Programming, TIL, CSharp]
 toc: true
@@ -11,12 +11,13 @@ typora-root-url: ../
 
 
 
-# 델리게이트(Delegate) 학습
+# 델리게이트(Delegate)와 이벤트 학습
 - 학습 목표
-  - 
+  - 델리게이트와 이벤트를 이해하고 사용할 수 있음
+  - 람다식을 사용해 코드를 간결하게 작성할 수 있음
 
 - 주요 키워드
-  -  
+  -  **델리게이트**, **이벤트**, **람다식**
 
 
 ## A. 문서 이력

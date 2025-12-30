@@ -2,7 +2,7 @@
 layout: single
 title:  "유튜브 영상으로 보는 테크니컬 아티스트(TA) 의 업무"
 categories: Industry
-tag: [Programming, Art, Industry]
+tag: [Programming, Art, Industry, YouTube]
 sidebar:
     nav: "counts"
 typora-root-url: ../

@@ -2,7 +2,7 @@
 layout: single
 title:  "유튜브 영상으로 보는 게임 아트 스타일 8가지"
 categories: Industry
-tag: [Programming, Art, Industry]
+tag: [Programming, Art, Industry, YouTube]
 sidebar:
     nav: "counts"
 typora-root-url: ../

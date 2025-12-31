@@ -31,3 +31,22 @@ typora-root-url: ../
 
 
 ## B. 델리게이트 란?
+- 메서드를 안전하게 참조할 수 있는 '함수 포인터' 같은 개념
+- 특정 메서드의 주소를 저장했다 나중에 필요할 때 호출할 수 있는 형식
+
+
+
+
+// 델리게이트 선언: int를 받고 int를 반환하는 메서드를 참조
+public delegate int MyDelegate(int a, int b);
+
+// 델리게이트에 할당될 메서드들
+public int Add(int x, int y) { return x + y; }
+public int Subtract(int x, int y) { return x - y; }
+
+// 델리게이트 변수 생성 및 메서드 할당
+MyDelegate operation = new MyDelegate(Add);
+// C# 2.0 이후 축약 형태: MyDelegate operation = Add;
+
+// 델리게이트를 통해 메서드 호출
+int result = operation(5, 3); // Add(5, 3) 호출, 결과는 8

@@ -31,3 +31,48 @@ typora-root-url: ../
 
 
 ## B. 제네릭 이란?
+
+클래스, 인터페이스, 메서드 등에서 사용할 데이터 타입을 정의 시점이 아닌 사용 시점에 결정하도록 만드는 기능
+
+
+
+public class Box<T>
+{
+    public T Content { get; set; }
+}
+
+// 사용 예시
+Box<int> intBox = new Box<int> { Content = 100 };
+Box<string> strBox = new Box<string> { Content = "Hello" };
+
+
+public void Swap<T>(ref T a, ref T b)
+{
+    T temp = a;
+    a = b;
+    b = temp;
+}
+
+
+public void Swap<T>(ref T a, ref T b) : where T : struct
+{
+    T temp = a;
+    a = b;
+    b = temp;
+}
+
+
+
+제약 조건 	설명
+where T : struct	T는 반드시 값 타입이어야 함
+where T : class	T는 반드시 참조 타입이어야 함
+where T : new()	T는 매개변수가 없는 공용 생성자가 있어야 함
+where T : BaseClass	T는 지정된 기본 클래스 또는 그 파생 클래스여야 함
+where T : InterfaceName	T는 지정된 인터페이스를 구현해야 함
+
+
+
+System.Collections.Generic 네임스페이스에 있는 클래스들이 가장 많이 사용됩니다. 
+List<T>: 가변 크기 배열
+Dictionary<TKey, TValue>: 키-값 쌍의 컬렉션
+Queue<T>, Stack<T> 등 

@@ -24,7 +24,7 @@ typora-root-url: ../
 
 - 작성 툴 : Visual Studio Code
 
-- 정보 출처 : [ovov 은성](https://www.youtube.com/@ovoveuni) 채널의 [2025년 회고 | 1인 개발자, 퇴사 후 6개월](https://youtu.be/OJeDtekeJJg?si=9LrEP9uXpLc6bsmq) 영상
+- 정보 출처 : [ovov 은성](https://www.youtube.com/@ovoveuni) 채널의 [2025년 회고 : 1인 개발자, 퇴사 후 6개월](https://youtu.be/OJeDtekeJJg?si=9LrEP9uXpLc6bsmq) 영상
 
 
 ## B. 인디 게임 개발자의 회고 영상 내용

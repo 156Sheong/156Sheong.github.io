@@ -38,3 +38,8 @@ typora-root-url: ../
 삽입 정렬
 
 탐색 알고리즘 중 이진 탐색
+
+
+(알고리즘 세부 내용은 다음 포스트에 추가 필요)
+(정렬 알고리즘 사이트 추가 필요 https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
+(길찾기 알고리즘 사이트도 다음 포스트에 추가 필요 https://qiao.github.io/PathFinding.js/visual/)

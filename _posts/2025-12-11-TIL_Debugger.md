@@ -2,7 +2,7 @@
 layout: single
 title:  "디버거 기초 학습과 응용(11-27 디버깅 문서랑 통합 필요)"
 categories: TIL
-tag: [Programming, TIL]
+tag: [Programming, TIL, WIP]
 toc: true
 sidebar:
     nav: "counts"

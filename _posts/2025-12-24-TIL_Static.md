@@ -2,7 +2,7 @@
 layout: single
 title:  "정적과 인스턴스 개념 학습"
 categories: TIL
-tag: [Programming, TIL, CSharp]
+tag: [Programming, TIL, CSharp, Patch]
 toc: true
 sidebar:
     nav: "counts"

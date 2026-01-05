@@ -2,7 +2,7 @@
 layout: single
 title:  "델리게이트와 이벤트 학습"
 categories: TIL
-tag: [Programming, TIL, CSharp]
+tag: [Programming, TIL, CSharp, WIP]
 toc: true
 sidebar:
     nav: "counts"

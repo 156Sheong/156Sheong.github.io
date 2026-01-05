@@ -2,7 +2,7 @@
 layout: single
 title:  "함수 학습 (심화 과정 수정 필요)"
 categories: TIL
-tag: [Programming, TIL, CSharp]
+tag: [Programming, TIL, CSharp, WIP]
 toc: true
 sidebar:
     nav: "counts"

@@ -35,7 +35,10 @@ typora-root-url: ../
 
 
 알고리즘 실전
-    퀵 병합 정렬 dfs bfs
+    퀵 
+    병합 
+    dfs 
+    bfs
 
 
 

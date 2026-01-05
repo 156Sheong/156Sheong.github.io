@@ -2,7 +2,7 @@
 layout: single
 title:  "유튜브 영상으로 보는 인디 게임 개발자의 회고"
 categories: Industry
-tag: [Programming, Art, Industry, YouTube]
+tag: [Programming, Industry, YouTube]
 sidebar:
     nav: "counts"
 typora-root-url: ../
@@ -16,7 +16,7 @@ typora-root-url: ../
   - 이 영상 뿐만 아니라, 다른 영상들도 보고 내 방향성에 대한 영감을 얻기 위해서
 
 - 주요 키워드
-  - 
+  - **1인 개발**, **인디 개발**, **회고**
 
 
 ## A. 문서 이력

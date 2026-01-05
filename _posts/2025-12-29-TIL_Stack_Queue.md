@@ -1,3 +1,15 @@
+---
+layout: single
+title:  "스택과 큐 학습"
+categories: TIL
+tag: [Programming, TIL, CSharp, WIP]
+toc: true
+sidebar:
+    nav: "counts"
+typora-root-url: ../
+---
+
+
 스택과 큐
 
 

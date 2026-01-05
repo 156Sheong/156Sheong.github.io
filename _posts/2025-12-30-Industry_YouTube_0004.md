@@ -2,7 +2,7 @@
 layout: single
 title:  "유튜브 영상으로 보는 입문 개발자가 발전하기 위한 팁"
 categories: Industry
-tag: [Programming, Industry, YouTube]
+tag: [Programming, Industry, YouTube, WIP]
 sidebar:
     nav: "counts"
 typora-root-url: ../

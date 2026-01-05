@@ -2,7 +2,7 @@
 layout: single
 title:  "게임 수학 기초 학습"
 categories: TIL
-tag: [Programming, TIL, Computer_math]
+tag: [Programming, TIL, Math]
 toc: true
 sidebar:
     nav: "counts"

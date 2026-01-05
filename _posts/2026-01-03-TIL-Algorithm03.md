@@ -2,7 +2,7 @@
 layout: single
 title:  "알고리즘 개념 학습"
 categories: TIL
-tag: [Programming, TIL, CSharp]
+tag: [Programming, TIL, CSharp, WIP]
 toc: true
 sidebar:
     nav: "counts"

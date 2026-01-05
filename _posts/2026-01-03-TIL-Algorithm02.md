@@ -2,7 +2,7 @@
 layout: single
 title:  "알고리즘의 복잡도와 Big-O 학습"
 categories: TIL
-tag: [Programming, TIL, CSharp]
+tag: [Programming, TIL, CSharp, Patch]
 toc: true
 sidebar:
     nav: "counts"

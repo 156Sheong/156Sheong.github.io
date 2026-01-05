@@ -2,7 +2,7 @@
 layout: single
 title:  "상속 학습"
 categories: TIL
-tag: [Programming, TIL, CSharp]
+tag: [Programming, TIL, CSharp, WIP]
 toc: true
 sidebar:
     nav: "counts"

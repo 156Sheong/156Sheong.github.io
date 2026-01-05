@@ -2,7 +2,7 @@
 layout: single
 title:  "추상 클래스 학습"
 categories: TIL
-tag: [Programming, TIL, CSharp]
+tag: [Programming, TIL, CSharp, Patch]
 toc: true
 sidebar:
     nav: "counts"

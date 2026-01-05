@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "알고리즘 개념 학습"
+title:  "알고리즘 개념 학습 3"
 categories: TIL
 tag: [Programming, TIL, CSharp, WIP]
 toc: true

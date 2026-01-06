@@ -329,5 +329,3 @@ defaults:
       share: true
       related: true
       show_date: true 
-      sidebar:
-        nav: "counts"  # 이 줄이 있어야 사이드바 메뉴가 나타남

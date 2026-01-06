@@ -95,7 +95,7 @@ typora-root-url: ../
 ## D. 주요 조건문의 형태
 - if - else if - else 문
   - 사용 예시  
-    ```CSharp 
+    ```csharp 
       // 현재 스테미나에 따른 활력도를 if - else if - else 문 으로 구현
       public enum StamState
       {
@@ -132,7 +132,7 @@ typora-root-url: ../
 
 - switch - case 문
   - 사용 예시 1
-    ```CSharp
+    ```csharp
       // if - else if - else 문 으로 구현한 활력도를 switch - case 문 으로 구현
       public enum StamState
       {
@@ -165,7 +165,7 @@ typora-root-url: ../
     ```
     
   - 사용 예시 2
-    ```CSharp
+    ```csharp
       // 게임 난이도를 switch - case 문 으로 구현
       public enum GameDifficulty
       {

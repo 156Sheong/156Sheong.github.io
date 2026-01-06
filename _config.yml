@@ -331,3 +331,13 @@ defaults:
       show_date: true 
       sidebar:
         nav: "counts"  # 이 줄이 있어야 사이드바 메뉴가 나타남
+
+  # _pages 모든 페이지를 위해 필요
+  - scope:
+      path: ""
+      type: pages  #  type이 'pages'인 경우
+    values:
+      layout: single
+      author_profile: true
+      sidebar:
+        nav: "counts" # 페이지에도 사이드바 nav를 킴

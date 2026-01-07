@@ -2,7 +2,7 @@
 layout: single
 title:  "디자인 패턴 개념 학습"
 categories: TIL
-tag: [Programming, TIL, CSharp, WIP]
+tag: [Programming, TIL, CSharp]
 toc: true
 sidebar:
     nav: "counts"

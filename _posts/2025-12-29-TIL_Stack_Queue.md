@@ -165,7 +165,7 @@ typora-root-url: ../
             barracks.Enqueue(new Unit("Medic"));
             barracks.Enqueue(new Unit("Marine"));
 
-            // 생산 시간 관련 함수
+            // 생산 시간 관련 함수 (생략)
 
             // 먼저 입력받은 유닛부터 반환 후 대기열에서 제거
             Unit unit = barracks.Dequeue();

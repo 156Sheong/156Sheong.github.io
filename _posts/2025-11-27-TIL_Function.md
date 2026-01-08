@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "함수 학습 (심화 과정 수정 필요)"
+title:  "함수 학습"
 categories: TIL
 tag: [Programming, TIL, CSharp, Patch]
 toc: true

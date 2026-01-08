@@ -2,7 +2,7 @@
 layout: single
 title:  "함수 학습 (심화 과정 수정 필요)"
 categories: TIL
-tag: [Programming, TIL, CSharp, WIP]
+tag: [Programming, TIL, CSharp, Patch]
 toc: true
 sidebar:
     nav: "counts"
@@ -219,6 +219,7 @@ typora-root-url: ../
 
 
 
+<!--
 static 키워드 붙은 것에 사용할 때는 static 필요
 지역변수 전역변수 
 void를 사용한 함수는 반환값이 생기지 않음
@@ -307,3 +308,5 @@ int[] (int 배열)을 생성하고 [1000] (1000개 공간)을 Call by Value 로 
 -> 이해하신 게 맞습니다.
 1000개 데이터가 스택에 복사되기 때문에 배열과 같은 참조타입으로 넘겨주는 것이 메모리 관점에서 좋습니다. 하지만 효율 이전에 설계하고자 하는 것에 따라서 달라질거에요. 예를들어 원본은 어떻게든 보존한채, 복사해서 전달할 경우 new로 재할당해서 사용한다든지 말이죠.
 그리고 배열의 주소값은 스택에 저장되는 것이 맞습니다.
+
+-->

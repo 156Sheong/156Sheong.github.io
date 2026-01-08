@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "추상 클래스 학습"
+title:  "클래스 상속 및 추상 클래스 학습"
 categories: TIL
 tag: [Programming, TIL, CSharp, Patch]
 toc: true
@@ -11,7 +11,7 @@ typora-root-url: ../
 
 
 
-# 추상 클래스(Abstract Class) 학습
+# 클래스 상속 및 추상 클래스(Abstract Class) 학습
 - 학습 목표
   - 추상 클래스와 다형성을 이해하고 사용할 수 있음
 
@@ -71,3 +71,12 @@ typora-root-url: ../
         }
     }
     ```
+
+
+<!--
+아래의 내용들 없는 것 같은데 확인 필요
+  오버로딩 및 오버라이딩 활용 실습
+  sealed 키워드 활용 실습
+  업캐스팅과 다운캐스팅 활용 실습
+  등 등
+-->

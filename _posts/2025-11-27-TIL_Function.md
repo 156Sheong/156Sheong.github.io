@@ -22,7 +22,7 @@ typora-root-url: ../
 
 - 작성 툴 : Typora, Visual Studio Code
 
-- 정보 출처 : 경일게임IT아카데미 프로그래밍 4기 - 온보딩 캠프 9일차 강의 내용, [마이크로소프트 Learn 매서드 매개변수 및 한정자 설명](https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/keywords/method-parameters) 등
+- 정보 출처 : 경일게임IT아카데미 프로그래밍 4기 - 온보딩 캠프 9일차 강의 내용, [MSDN 매서드 매개변수 및 한정자 설명](https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/keywords/method-parameters), [MSDN 접근 한정자 문서](https://learn.microsoft.com/ko-kr/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers) 등
 
 
 
@@ -74,6 +74,7 @@ typora-root-url: ../
 - 접근 지정자 (Access Modifier)
   - 함수의 접근 범위를 지정함
   - `public`, `private`, `protected` 등
+  - MSDN 접근 한정자 문서 : [링크](https://learn.microsoft.com/ko-kr/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers)
   
 - 반환 타입 (Return Type)
   - 함수 실행 후 반환하는 값의 데이터 타입 지정
@@ -145,6 +146,7 @@ typora-root-url: ../
 ## G. 매개변수 한정자
 - 함수에서 매개변수를 전달하는 방식을 지정하는 키워드
 - C#에서 매개변수 한정자는 ref, out, in params 등이 있음
+- MSDN 매서드 매개변수 및 한정자 설명 문서 : [링크](https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/keywords/method-parameters)
 - **ref**
   - 매개변수를 참조로 전달하여, 함수 내에서 값을 수정할 수 있도록 함
   - 읽기와 쓰기가 모두 가능함

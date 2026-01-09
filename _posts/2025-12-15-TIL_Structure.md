@@ -42,10 +42,8 @@ struct
   구조체 안에 맴버 변수나 맴버 함수
 
 
-접근 한정자(접근 지정자) -> 2025-11-27-TIL_Function 에 적혀있어서 확인 필요(추가 내용 없으면 여기 적을 필요 없음)
-  private - 외부에선 조회, 수정 불가, 내부에서만 사용 가능
-  public
-  https://learn.microsoft.com/ko-kr/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers
+접근 한정자(접근 지정자) -> 2025-11-27-TIL_Function 에 적혀있어서 생략
+
 
 
   구조체의 생성자 : 구조체의 실체가 만들어질 때 호출되는 함수(생성자는 클래스에서도 사용)

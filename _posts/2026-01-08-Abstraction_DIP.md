@@ -91,10 +91,13 @@ typora-root-url: ../
 - 언제나 추상화와 의존성 역전 원칙이 경제성이 있지는 않음
   - 프로젝트의 규모가 커지고, 지속적으로 유지보수가 필요할 때 이와 같은 OOP 가 더 잘 지킬수록 경제성이 생김
   - 반대로 프로젝트 규모가 작고, 유지보수가 필요 없다면 OOP의 여러 원칙을 꼭 지킬 필요는 없음
-
+- 캡슐화와 추상화의 차이
+  - 캡슐화는 객체 내부의 데이터를 보호하기 위한 개념
+  - 추상화는 객체가 제공해야 할 기능의 틀을 정의하는 개념
 
 
 ## F. 참고 자료
 - [유니티 디자인패턴 1부](https://www.youtube.com/live/iyeRmq24HVk?si=FZdNdV5tCID1k--j)
 - [MSDN 아키텍처 원칙](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles)
 - [위키독스 소프트웨어개발 입문 - 추상화 문서](https://wikidocs.net/274929#:~:text=%EC%B6%94%EC%83%81%ED%99%94%EC%9D%98%20%EC%9E%A5%EC%A0%90,%EB%AF%B8%EC%B9%98%EB%8A%94%20%EC%98%81%ED%96%A5%EC%9D%84%20%EC%B5%9C%EC%86%8C%ED%99%94%ED%95%9C%EB%8B%A4.)
+

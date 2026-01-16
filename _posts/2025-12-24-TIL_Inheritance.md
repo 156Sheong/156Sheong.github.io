@@ -16,7 +16,7 @@ typora-root-url: ../
   - 상속의 개념을 이해하고, 상속 사용법을 활용할 수 있음
 
 - 주요 키워드
-  -  **상속**, **overloading**, **overriding**, **sealed**, **업캐스팅**, **다운캐스팅**
+  -  **상속**, **Public**, **protected**, **private**, **overloading**, **overriding**, **sealed**, **업캐스팅**, **다운캐스팅**
 
 
 
@@ -37,3 +37,5 @@ typora-root-url: ../
   - 다중 상속은 클래스가 아닌 인더페이스가 지원함
 
 
+
+## C. 상속 사용법

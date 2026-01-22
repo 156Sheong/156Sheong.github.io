@@ -2,7 +2,7 @@
 layout: single
 title:  "유니티 AI 네비게이션 2.0 소개 영상"
 categories: Industry
-tag: [Programming, Unity, YouTube]
+tag: [Programming, Unity, YouTube, WIP]
 sidebar:
     nav: "counts"
 typora-root-url: ../
